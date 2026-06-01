@@ -1,0 +1,484 @@
+{
+  "chains": {
+    "abstract": {
+      "chain_id": 2741,
+      "name": "Abstract",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://api.mainnet.abs.xyz"
+      ]
+    },
+    "aptos": {
+      "name": "Aptos",
+      "native_asset": "APT",
+      "public_rpcs": [
+        "https://fullnode.mainnet.aptoslabs.com/v1"
+      ]
+    },
+    "arbitrum": {
+      "chain_id": 42161,
+      "name": "Arbitrum",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://arb1.arbitrum.io/rpc",
+        "https://arbitrum.llamarpc.com",
+        "https://rpc.ankr.com/arbitrum"
+      ]
+    },
+    "aurora": {
+      "chain_id": 1313161554,
+      "name": "Aurora",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://mainnet.aurora.dev"
+      ]
+    },
+    "avalanche": {
+      "chain_id": 43114,
+      "name": "Avalanche",
+      "native_asset": "AVAX",
+      "public_rpcs": [
+        "https://api.avax.network/ext/bc/C/rpc",
+        "https://avalanche.public-rpc.com"
+      ]
+    },
+    "base": {
+      "chain_id": 8453,
+      "name": "Base",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://mainnet.base.org",
+        "https://base.llamarpc.com",
+        "https://rpc.ankr.com/base"
+      ]
+    },
+    "berachain": {
+      "chain_id": 80094,
+      "name": "Berachain",
+      "native_asset": "BERA",
+      "public_rpcs": [
+        "https://rpc.berachain.com"
+      ]
+    },
+    "bitlayer": {
+      "chain_id": 200901,
+      "name": "BitLayer",
+      "native_asset": "BTC",
+      "public_rpcs": []
+    },
+    "blast": {
+      "chain_id": 81457,
+      "name": "Blast",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://rpc.blast.io"
+      ]
+    },
+    "bob": {
+      "chain_id": 60808,
+      "name": "BOB",
+      "native_asset": "ETH",
+      "public_rpcs": []
+    },
+    "bsc": {
+      "chain_id": 56,
+      "name": "BSC",
+      "native_asset": "BNB",
+      "public_rpcs": [
+        "https://bsc-dataseed.binance.org",
+        "https://bsc-dataseed1.defibit.io",
+        "https://bsc-dataseed1.ninicoin.io"
+      ]
+    },
+    "celo": {
+      "chain_id": 42220,
+      "name": "Celo",
+      "native_asset": "CELO",
+      "public_rpcs": [
+        "https://forno.celo.org"
+      ]
+    },
+    "core": {
+      "chain_id": 1116,
+      "name": "Core",
+      "native_asset": "CORE",
+      "public_rpcs": []
+    },
+    "corn": {
+      "chain_id": 21000000,
+      "name": "Corn",
+      "native_asset": "BTCN",
+      "public_rpcs": []
+    },
+    "ethereum": {
+      "chain_id": 1,
+      "name": "Ethereum",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://ethereum.publicnode.com",
+        "https://eth.drpc.org",
+        "https://1rpc.io/eth",
+        "https://rpc.flashbots.net"
+      ]
+    },
+    "etherlink": {
+      "chain_id": 42793,
+      "name": "Etherlink",
+      "native_asset": "XTZ",
+      "public_rpcs": []
+    },
+    "fantom": {
+      "chain_id": 250,
+      "name": "Fantom",
+      "native_asset": "FTM",
+      "public_rpcs": [
+        "https://rpcapi.fantom.network"
+      ]
+    },
+    "flare": {
+      "chain_id": 14,
+      "name": "Flare",
+      "native_asset": "FLR",
+      "public_rpcs": []
+    },
+    "fraxtal": {
+      "chain_id": 252,
+      "name": "Fraxtal",
+      "native_asset": "FRAX",
+      "public_rpcs": [
+        "https://rpc.frax.com"
+      ]
+    },
+    "gnosis": {
+      "chain_id": 100,
+      "name": "Gnosis",
+      "native_asset": "xDAI",
+      "public_rpcs": [
+        "https://rpc.gnosischain.com"
+      ]
+    },
+    "hemi": {
+      "name": "Hemi",
+      "native_asset": "ETH",
+      "public_rpcs": []
+    },
+    "hyperevm": {
+      "chain_id": 999,
+      "name": "HyperEVM",
+      "native_asset": "HYPE",
+      "public_rpcs": [
+        "https://rpc.hyperliquid.xyz/evm"
+      ]
+    },
+    "ink": {
+      "chain_id": 57073,
+      "name": "Ink",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://rpc-gel.inkonchain.com",
+        "https://rpc-qn.inkonchain.com",
+        "https://ink.drpc.org"
+      ]
+    },
+    "kaia": {
+      "chain_id": 8217,
+      "name": "Kaia",
+      "native_asset": "KAIA",
+      "public_rpcs": [
+        "https://public-en.node.kaia.io"
+      ]
+    },
+    "katana": {
+      "chain_id": 747474,
+      "name": "Katana",
+      "native_asset": "ETH",
+      "public_rpcs": []
+    },
+    "kava": {
+      "chain_id": 2222,
+      "name": "Kava",
+      "native_asset": "KAVA",
+      "public_rpcs": [
+        "https://evm.kava.io"
+      ]
+    },
+    "linea": {
+      "chain_id": 59144,
+      "name": "Linea",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://rpc.linea.build",
+        "https://linea.drpc.org",
+        "https://1rpc.io/linea",
+        "https://linea.blockpi.network/v1/rpc/public"
+      ]
+    },
+    "lisk": {
+      "chain_id": 1135,
+      "name": "Lisk",
+      "native_asset": "ETH",
+      "public_rpcs": []
+    },
+    "manta": {
+      "name": "Manta Pacific",
+      "native_asset": "ETH",
+      "public_rpcs": []
+    },
+    "mantle": {
+      "chain_id": 5000,
+      "name": "Mantle",
+      "native_asset": "MNT",
+      "public_rpcs": [
+        "https://rpc.mantle.xyz",
+        "https://mantle.drpc.org",
+        "https://mantle.publicnode.com",
+        "https://1rpc.io/mantle"
+      ]
+    },
+    "mantra": {
+      "chain_id": 5888,
+      "name": "MANTRA",
+      "native_asset": "OM",
+      "public_rpcs": [
+        "https://evm.mantrachain.io"
+      ]
+    },
+    "megaeth": {
+      "chain_id": 4326,
+      "name": "MegaETH",
+      "native_asset": "ETH",
+      "public_rpcs": []
+    },
+    "merlin": {
+      "chain_id": 4200,
+      "name": "Merlin",
+      "native_asset": "BTC",
+      "public_rpcs": []
+    },
+    "metis": {
+      "chain_id": 1088,
+      "name": "Metis",
+      "native_asset": "METIS",
+      "public_rpcs": [
+        "https://andromeda.metis.io/?owner=1088"
+      ]
+    },
+    "mode": {
+      "chain_id": 34443,
+      "name": "Mode",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://mainnet.mode.network"
+      ]
+    },
+    "monad": {
+      "chain_id": 143,
+      "name": "Monad",
+      "native_asset": "MON",
+      "public_rpcs": []
+    },
+    "morph": {
+      "chain_id": 2818,
+      "name": "Morph",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://rpc.morphl2.io"
+      ]
+    },
+    "movement": {
+      "chain_id": 126,
+      "name": "Movement",
+      "native_asset": "MOVE",
+      "public_rpcs": [
+        "https://mainnet.movementnetwork.xyz/v1"
+      ]
+    },
+    "optimism": {
+      "chain_id": 10,
+      "name": "Optimism",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://mainnet.optimism.io",
+        "https://optimism.drpc.org",
+        "https://1rpc.io/op",
+        "https://optimism.publicnode.com"
+      ]
+    },
+    "plasma": {
+      "chain_id": 9745,
+      "name": "Plasma",
+      "native_asset": "XPL",
+      "public_rpcs": [
+        "https://rpc.plasma.to",
+        "https://plasma.drpc.org",
+        "https://plasma.api.onfinality.io/public"
+      ]
+    },
+    "plume": {
+      "chain_id": 98866,
+      "name": "Plume",
+      "native_asset": "PLUME",
+      "public_rpcs": [
+        "https://rpc.plume.org"
+      ]
+    },
+    "polygon": {
+      "chain_id": 137,
+      "name": "Polygon",
+      "native_asset": "POL",
+      "public_rpcs": [
+        "https://polygon.drpc.org",
+        "https://1rpc.io/matic",
+        "https://polygon-bor-rpc.publicnode.com",
+        "https://polygon-rpc.com"
+      ]
+    },
+    "polygon_zkevm": {
+      "chain_id": 1101,
+      "name": "Polygon zkEVM",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://zkevm-rpc.com"
+      ]
+    },
+    "rootstock": {
+      "chain_id": 30,
+      "name": "Rootstock",
+      "native_asset": "RBTC",
+      "public_rpcs": []
+    },
+    "scroll": {
+      "chain_id": 534352,
+      "name": "Scroll",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://rpc.scroll.io"
+      ]
+    },
+    "sei": {
+      "chain_id": 1329,
+      "name": "Sei",
+      "native_asset": "SEI",
+      "public_rpcs": [
+        "https://evm-rpc.sei-apis.com"
+      ]
+    },
+    "solana": {
+      "name": "Solana",
+      "native_asset": "SOL",
+      "public_rpcs": [
+        "https://api.mainnet-beta.solana.com"
+      ]
+    },
+    "soneium": {
+      "chain_id": 1868,
+      "name": "Soneium",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://rpc.soneium.org"
+      ]
+    },
+    "sonic": {
+      "chain_id": 146,
+      "name": "Sonic",
+      "native_asset": "S",
+      "public_rpcs": [
+        "https://rpc.soniclabs.com"
+      ]
+    },
+    "stable": {
+      "chain_id": 988,
+      "name": "Stable",
+      "native_asset": "USDT",
+      "public_rpcs": []
+    },
+    "starknet": {
+      "name": "Starknet",
+      "native_asset": "STRK",
+      "public_rpcs": []
+    },
+    "stellar": {
+      "name": "Stellar",
+      "native_asset": "XLM",
+      "public_rpcs": []
+    },
+    "sui": {
+      "name": "Sui",
+      "native_asset": "SUI",
+      "public_rpcs": []
+    },
+    "swellchain": {
+      "chain_id": 1923,
+      "name": "Swellchain",
+      "native_asset": "ETH",
+      "public_rpcs": []
+    },
+    "tac": {
+      "name": "TAC",
+      "native_asset": "TAC",
+      "public_rpcs": []
+    },
+    "taiko": {
+      "chain_id": 167000,
+      "name": "Taiko",
+      "native_asset": "ETH",
+      "public_rpcs": []
+    },
+    "tempo": {
+      "chain_id": 4217,
+      "name": "Tempo",
+      "native_asset": "USD",
+      "public_rpcs": []
+    },
+    "ton": {
+      "name": "TON",
+      "native_asset": "TON",
+      "public_rpcs": []
+    },
+    "tron": {
+      "name": "Tron",
+      "native_asset": "TRX",
+      "public_rpcs": [
+        "https://api.trongrid.io"
+      ]
+    },
+    "unichain": {
+      "chain_id": 130,
+      "name": "Unichain",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://mainnet.unichain.org",
+        "https://unichain.drpc.org",
+        "https://unichain-rpc.publicnode.com"
+      ]
+    },
+    "worldchain": {
+      "chain_id": 480,
+      "name": "World Chain",
+      "native_asset": "ETH",
+      "public_rpcs": []
+    },
+    "xlayer": {
+      "chain_id": 196,
+      "name": "X Layer",
+      "native_asset": "OKB",
+      "public_rpcs": [
+        "https://rpc.xlayer.tech"
+      ]
+    },
+    "zircuit": {
+      "chain_id": 48900,
+      "name": "Zircuit",
+      "native_asset": "ETH",
+      "public_rpcs": []
+    },
+    "zksync": {
+      "chain_id": 324,
+      "name": "ZKsync",
+      "native_asset": "ETH",
+      "public_rpcs": [
+        "https://mainnet.era.zksync.io"
+      ]
+    }
+  }
+}

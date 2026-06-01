@@ -1,0 +1,13 @@
+.env
+.claude/
+rpcs.json
+data/
+*.db
+*.html
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+dist/
+*.egg-info/

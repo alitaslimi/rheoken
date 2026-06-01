@@ -1,0 +1,4687 @@
+{
+  "uniswap_v2": [
+    {
+      "address": "0x864a82890a8b657e32d10da2fd62cb393820e920",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-cbBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-cbBTC",
+      "protocol": "Uniswap",
+      "symbol": "USDC-cbBTC",
+      "tokens": [
+        "USDC",
+        "cbBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "cbBTC": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x3df07052c2617ea463fc35d9cf320634eaf5e345",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-cbBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-cbBTC",
+      "protocol": "Uniswap",
+      "symbol": "WETH-cbBTC",
+      "tokens": [
+        "WETH",
+        "cbBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "cbBTC": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x66506753053fdf372a05c705cf8b6b2c55d3a804",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-cbETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-cbETH",
+      "protocol": "Uniswap",
+      "symbol": "USDC-cbETH",
+      "tokens": [
+        "USDC",
+        "cbETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "cbETH": "0xbe9895146f7af43049ca1c1ae358b0541ea49704"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x281cf68a2f0c04f5976867c66fd60dd3d7e0c438",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 cbETH-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "cbETH-WETH",
+      "protocol": "Uniswap",
+      "symbol": "cbETH-WETH",
+      "tokens": [
+        "cbETH",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "cbETH": "0xbe9895146f7af43049ca1c1ae358b0541ea49704"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xcadb608bd716ebe00c86311e71922334c4f225f2",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 EURC-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "EURC-USDC",
+      "protocol": "Uniswap",
+      "symbol": "EURC-USDC",
+      "tokens": [
+        "EURC",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "EURC": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+        "USDC": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x13ed4c8c3b466322c8e74c72f6946081dc8bae60",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 EURC-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "EURC-USDT",
+      "protocol": "Uniswap",
+      "symbol": "EURC-USDT",
+      "tokens": [
+        "EURC",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "EURC": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+        "USDT": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x6bab2adaed3f21f8264a492e0d5d291e45d12a1d",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 EURC-XAUt",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "EURC-XAUt",
+      "protocol": "Uniswap",
+      "symbol": "EURC-XAUt",
+      "tokens": [
+        "EURC",
+        "XAUt"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "EURC": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+        "XAUt": "0x68749665ff8d2d112fa859aa293f07a622782f38"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xd30ef9144a8d26f816bcfcebc1f0c7215adb4964",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 PYUSD-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "PYUSD-USDC",
+      "protocol": "Uniswap",
+      "symbol": "PYUSD-USDC",
+      "tokens": [
+        "PYUSD",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "PYUSD": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+        "USDC": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x4a4d2410c3d4cfa8dd0d275bedefbd2f7b61ba2e",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 PYUSD-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "PYUSD-WETH",
+      "protocol": "Uniswap",
+      "symbol": "PYUSD-WETH",
+      "tokens": [
+        "PYUSD",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "PYUSD": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+        "WETH": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xebfb684dd2b01e698ca6c14f10e4f289934a54d6",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 UNI-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "UNI-USDC",
+      "protocol": "Uniswap",
+      "symbol": "UNI-USDC",
+      "tokens": [
+        "UNI",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        "USDC": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x77253e7e781a74fc6fccb316969300695b7eae8e",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 UNI-USDP",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "UNI-USDP",
+      "protocol": "Uniswap",
+      "symbol": "UNI-USDP",
+      "tokens": [
+        "UNI",
+        "USDP"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        "USDP": "0x8e870d67f660d95d5be530380d0ec0bd388289e1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x5ac13261c181a9c3938bfe1b649e65d10f98566b",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 UNI-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "UNI-USDT",
+      "protocol": "Uniswap",
+      "symbol": "UNI-USDT",
+      "tokens": [
+        "UNI",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        "USDT": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xd3d2e2692501a5c9ca623199d38826e513033a17",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 UNI-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "UNI-WETH",
+      "protocol": "Uniswap",
+      "symbol": "UNI-WETH",
+      "tokens": [
+        "UNI",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        "WETH": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x3139ffc91b99aa94da8a2dc13f1fc36f9bdc98ee",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDP-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDP-USDC",
+      "protocol": "Uniswap",
+      "symbol": "USDP-USDC",
+      "tokens": [
+        "USDP",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "USDP": "0x8e870d67f660d95d5be530380d0ec0bd388289e1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x3041cbd36888becc7bbcbc0045e3b1f144466f5f",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-USDT",
+      "protocol": "Uniswap",
+      "symbol": "USDC-USDT",
+      "tokens": [
+        "USDC",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "USDT": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-WETH",
+      "protocol": "Uniswap",
+      "symbol": "USDC-WETH",
+      "tokens": [
+        "USDC",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "WETH": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xf2ed762e4b5ea630a0a390acd366597383cbf29a",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 XAUt-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "XAUt-USDC",
+      "protocol": "Uniswap",
+      "symbol": "XAUt-USDC",
+      "tokens": [
+        "XAUt",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "XAUt": "0x68749665ff8d2d112fa859aa293f07a622782f38"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x7cd0378010711cb72a6ca35f09d5da2094061d9c",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDP-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDP-USDT",
+      "protocol": "Uniswap",
+      "symbol": "USDP-USDT",
+      "tokens": [
+        "USDP",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDP": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+        "USDT": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x598e7a017dace2534bc3f7496124c89425b1e165",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDP-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDP-WETH",
+      "protocol": "Uniswap",
+      "symbol": "USDP-WETH",
+      "tokens": [
+        "USDP",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDP": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+        "WETH": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-USDT",
+      "protocol": "Uniswap",
+      "symbol": "WETH-USDT",
+      "tokens": [
+        "WETH",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "WETH": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x192acccc59a8a1a4c1a878744398f39a02205c75",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 XAUt-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "XAUt-USDT",
+      "protocol": "Uniswap",
+      "symbol": "XAUt-USDT",
+      "tokens": [
+        "XAUt",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "XAUt": "0x68749665ff8d2d112fa859aa293f07a622782f38"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x589ea310f2500f6859d2619518fd1b95bb1bb0b1",
+      "chain": "ethereum",
+      "decimals": 18,
+      "name": "Uniswap V2 XAUt-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "XAUt-WETH",
+      "protocol": "Uniswap",
+      "symbol": "XAUt-WETH",
+      "tokens": [
+        "XAUt",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "XAUt": "0x68749665ff8d2d112fa859aa293f07a622782f38"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xbaeee7397a4391b57a96c3352064de419b3b56d3",
+      "chain": "monad",
+      "decimals": 18,
+      "name": "Uniswap V2 AUSD-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "AUSD-USDC",
+      "protocol": "Uniswap",
+      "symbol": "AUSD-USDC",
+      "tokens": [
+        "AUSD",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AUSD": "0x00000000efe302beaa2b3e6e1b18d08d69a9012a",
+        "USDC": "0x754704bc059f8c67012fed69bc8a327a5aafb603"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x678c5357d21d24938fa6f9c7e3f77491e3c25118",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 AAVE-LINK",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "AAVE-LINK",
+      "protocol": "Uniswap",
+      "symbol": "AAVE-LINK",
+      "tokens": [
+        "AAVE",
+        "LINK"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0xba5ddd1f9d7f570dc94a51479a000e3bce967196",
+        "LINK": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xb9b578e20ce352660db561718230a655e2b9ccf2",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "USDC-AAVE",
+      "tokens": [
+        "USDC",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0xba5ddd1f9d7f570dc94a51479a000e3bce967196",
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x26fe939b658e6c6ccc8b07c814fa10b81fcafe73",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "WETH-AAVE",
+      "tokens": [
+        "WETH",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0xba5ddd1f9d7f570dc94a51479a000e3bce967196",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x8f5384b372a9348c879eaf29d384f33c8f2191f5",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 ARB-DAI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ARB-DAI",
+      "protocol": "Uniswap",
+      "symbol": "ARB-DAI",
+      "tokens": [
+        "ARB",
+        "DAI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "ARB": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+        "DAI": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x7d7078fdea774d15264f23ab98e56fb89a9aef35",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 ARB-LINK",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ARB-LINK",
+      "protocol": "Uniswap",
+      "symbol": "ARB-LINK",
+      "tokens": [
+        "ARB",
+        "LINK"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "ARB": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+        "LINK": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xc5ae044a9d6f5fc5c6e58f74d4928cef5369c6bf",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 ARB-SUSHI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ARB-SUSHI",
+      "protocol": "Uniswap",
+      "symbol": "ARB-SUSHI",
+      "tokens": [
+        "ARB",
+        "SUSHI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "ARB": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+        "SUSHI": "0xd4d42f0b6def4ce0383636770ef773390d85c61a"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xc09fd4479ba9d1bf50f902537d8da7d0539c03ee",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 ARB-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ARB-UNI",
+      "protocol": "Uniswap",
+      "symbol": "ARB-UNI",
+      "tokens": [
+        "ARB",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "ARB": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+        "UNI": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x011f31d20c8778c8beb1093b73e3a5690ee6271b",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 ARB-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ARB-USDC",
+      "protocol": "Uniswap",
+      "symbol": "ARB-USDC",
+      "tokens": [
+        "ARB",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "ARB": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x5b902f0f00b05a58c296932dc550137e0a5f7ce8",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 ARB-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ARB-USDC",
+      "protocol": "Uniswap",
+      "symbol": "ARB-USDC",
+      "tokens": [
+        "ARB",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "ARB": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+        "USDC": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x53d461d05fd85499a9c2b1fdfb8a12be496c0265",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 ARB-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ARB-USDT",
+      "protocol": "Uniswap",
+      "symbol": "ARB-USDT",
+      "tokens": [
+        "ARB",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "ARB": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+        "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x103b03051bf073c44decfaf8dfd12275254ab97e",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-ARB",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-ARB",
+      "protocol": "Uniswap",
+      "symbol": "WETH-ARB",
+      "tokens": [
+        "WETH",
+        "ARB"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "ARB": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x21e0ac494103aa34cb1453aa6df338067df31b14",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 ZRO-ARB",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ZRO-ARB",
+      "protocol": "Uniswap",
+      "symbol": "ZRO-ARB",
+      "tokens": [
+        "ZRO",
+        "ARB"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "ARB": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+        "ZRO": "0x6985884c4392d348587b19cb9eaaf157f13271cd"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x50e1681ac965914168cd8cc9df6d8dac99c28f98",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-cbBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-cbBTC",
+      "protocol": "Uniswap",
+      "symbol": "USDC-cbBTC",
+      "tokens": [
+        "USDC",
+        "cbBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "cbBTC": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xa18b5b85cb9edd12adf8ce0105888ce7f41ebd92",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-cbBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-cbBTC",
+      "protocol": "Uniswap",
+      "symbol": "WETH-cbBTC",
+      "tokens": [
+        "WETH",
+        "cbBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "cbBTC": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x1504ca3de8f90149520fcb08e27eb57f7d6a7de6",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 cbETH-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "cbETH-WETH",
+      "protocol": "Uniswap",
+      "symbol": "cbETH-WETH",
+      "tokens": [
+        "cbETH",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "cbETH": "0x1debd73e752beaf79865fd6446b0c970eae7732f"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x49b0c98dc2be25018d48ad14e42b808000038f21",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 CHIP-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "CHIP-WETH",
+      "protocol": "Uniswap",
+      "symbol": "CHIP-WETH",
+      "tokens": [
+        "CHIP",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "CHIP": "0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xf8c17b6e673f9033264edaf93c61429e3b0c57ae",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 CRV-LDO",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "CRV-LDO",
+      "protocol": "Uniswap",
+      "symbol": "CRV-LDO",
+      "tokens": [
+        "CRV",
+        "LDO"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "CRV": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978",
+        "LDO": "0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xa30018768d89c4340c1c57dab7952b1082b0c39f",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 DAI-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "DAI-UNI",
+      "protocol": "Uniswap",
+      "symbol": "DAI-UNI",
+      "tokens": [
+        "DAI",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+        "UNI": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x8edd9aeabdf2e63f76f4c4b7f36aefa14d3cc6bc",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-DAI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-DAI",
+      "protocol": "Uniswap",
+      "symbol": "USDC-DAI",
+      "tokens": [
+        "USDC",
+        "DAI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x7e493e0d85ccff30024109c13744515612014171",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 DAI-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "DAI-USDC",
+      "protocol": "Uniswap",
+      "symbol": "DAI-USDC",
+      "tokens": [
+        "DAI",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+        "USDC": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x3da7fe3f0ed5c8e82a6e5b046c635274912a5db0",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 DAI-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "DAI-USDT",
+      "protocol": "Uniswap",
+      "symbol": "DAI-USDT",
+      "tokens": [
+        "DAI",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+        "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x8dca5a5dba32ca529594d43f86ed4210ead2ed83",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-DAI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-DAI",
+      "protocol": "Uniswap",
+      "symbol": "WETH-DAI",
+      "tokens": [
+        "WETH",
+        "DAI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x2ed158004514065812e8367bde1b2f2e30a15bc6",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 ETHFI-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ETHFI-WETH",
+      "protocol": "Uniswap",
+      "symbol": "ETHFI-WETH",
+      "tokens": [
+        "ETHFI",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "ETHFI": "0x7189fb5b6504bbff6a852b13b7b82a3c118fdc27",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x52ce46af7c49a158118e07bd8b854c034e639fd4",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 ezETH-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ezETH-WETH",
+      "protocol": "Uniswap",
+      "symbol": "ezETH-WETH",
+      "tokens": [
+        "ezETH",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "ezETH": "0x2416092f143378750bb29b79ed961ab195cceea5"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x346822ce0b848f2d29d1734ce747805565f5ee06",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 LDO-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "LDO-USDT",
+      "protocol": "Uniswap",
+      "symbol": "LDO-USDT",
+      "tokens": [
+        "LDO",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "LDO": "0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60",
+        "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xbe9dbfffd93e5e2097e7849c782fb61ae4d24177",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-LINK",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-LINK",
+      "protocol": "Uniswap",
+      "symbol": "USDC-LINK",
+      "tokens": [
+        "USDC",
+        "LINK"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "LINK": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xf20d0f11e164b51ce3f98be39882fb28047bc468",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-LINK",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-LINK",
+      "protocol": "Uniswap",
+      "symbol": "WETH-LINK",
+      "tokens": [
+        "WETH",
+        "LINK"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "LINK": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x05cd22e10a9d77c5d8f94ff878089539a371debb",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-rETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-rETH",
+      "protocol": "Uniswap",
+      "symbol": "WETH-rETH",
+      "tokens": [
+        "WETH",
+        "rETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "rETH": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xb84cd594266c621c4b782578b90112e4559de888",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 rsETH-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "rsETH-WETH",
+      "protocol": "Uniswap",
+      "symbol": "rsETH-WETH",
+      "tokens": [
+        "rsETH",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "rsETH": "0x4186bfc76e2e237523cbc30fd220fe055156b41f"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xbdd264764b6bef1b544b85e28fab244f3cb06d56",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 sUSDe-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "sUSDe-USDC",
+      "protocol": "Uniswap",
+      "symbol": "sUSDe-USDC",
+      "tokens": [
+        "sUSDe",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "sUSDe": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xb4c10e1a22fc9827857c17a2c8f6eedf1f9ef609",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 sUSDe-wstETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "sUSDe-wstETH",
+      "protocol": "Uniswap",
+      "symbol": "sUSDe-wstETH",
+      "tokens": [
+        "sUSDe",
+        "wstETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "sUSDe": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
+        "wstETH": "0x5979d7b546e38e414f7e9822514be443a4800529"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xe8828c032a721ae715c8c1f84dbc39f52fa307f8",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-SUSHI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-SUSHI",
+      "protocol": "Uniswap",
+      "symbol": "USDC-SUSHI",
+      "tokens": [
+        "USDC",
+        "SUSHI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "SUSHI": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x4aee232662ab058e59795e036b0240f999dc67c7",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-SUSHI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-SUSHI",
+      "protocol": "Uniswap",
+      "symbol": "WETH-SUSHI",
+      "tokens": [
+        "WETH",
+        "SUSHI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "SUSHI": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x4dd3bc8d28e99d25877f10c975ec6ff979c3faf2",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 tBTC-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "tBTC-USDT",
+      "protocol": "Uniswap",
+      "symbol": "tBTC-USDT",
+      "tokens": [
+        "tBTC",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+        "tBTC": "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x8397f02fc5081d5e01368a276ccf03fe8ad45623",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WBTC-tBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBTC-tBTC",
+      "protocol": "Uniswap",
+      "symbol": "WBTC-tBTC",
+      "tokens": [
+        "WBTC",
+        "tBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WBTC": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+        "tBTC": "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xd26e22c75ea0a66a526bc8b303da6b0085a3b0ab",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 tBTC-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "tBTC-WETH",
+      "protocol": "Uniswap",
+      "symbol": "tBTC-WETH",
+      "tokens": [
+        "tBTC",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "tBTC": "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xe79cddf571817e7d8262c167660c1510c7569088",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-UNI",
+      "protocol": "Uniswap",
+      "symbol": "USDC-UNI",
+      "tokens": [
+        "USDC",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x8d008317e84bf814dbdcc611751410dd7192bb87",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 UNI-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "UNI-USDT",
+      "protocol": "Uniswap",
+      "symbol": "UNI-USDT",
+      "tokens": [
+        "UNI",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+        "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xfca2b3892435c4d5b5e0e0e04312022ece647fa2",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-UNI",
+      "protocol": "Uniswap",
+      "symbol": "WETH-UNI",
+      "tokens": [
+        "WETH",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xa641a8951f9aa42edc5609367633e1ddb3d8bdf4",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDS-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDS-USDC",
+      "protocol": "Uniswap",
+      "symbol": "USDS-USDC",
+      "tokens": [
+        "USDS",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "USDS": "0x6491c05a82219b8d1479057361ff1654749b876b"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xdeae1ff5282d83aadd42f85c57f6e69a037bf7cd",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-USDT",
+      "protocol": "Uniswap",
+      "symbol": "USDC-USDT",
+      "tokens": [
+        "USDC",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x599bb1269b71625da7761ba79a228230c8354c55",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WBTC-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBTC-USDC",
+      "protocol": "Uniswap",
+      "symbol": "WBTC-USDC",
+      "tokens": [
+        "WBTC",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "WBTC": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xf64dfe17c8b87f012fcf50fbda1d62bfa148366a",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-USDC",
+      "protocol": "Uniswap",
+      "symbol": "WETH-USDC",
+      "tokens": [
+        "WETH",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x637891b5660a60023c24ff6e8fa982560e4afdb8",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 wstETH-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "wstETH-USDC",
+      "protocol": "Uniswap",
+      "symbol": "wstETH-USDC",
+      "tokens": [
+        "wstETH",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "wstETH": "0x5979d7b546e38e414f7e9822514be443a4800529"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x801fb599768b052f0220572137e554f26fc820e0",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 ZRO-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ZRO-USDC",
+      "protocol": "Uniswap",
+      "symbol": "ZRO-USDC",
+      "tokens": [
+        "ZRO",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "ZRO": "0x6985884c4392d348587b19cb9eaaf157f13271cd"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xfb1572c8884924490cd4c9945511e4d1578fb727",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDT-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDT-USDC",
+      "protocol": "Uniswap",
+      "symbol": "USDT-USDC",
+      "tokens": [
+        "USDT",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+        "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xfe549d1ab7873eadf93a09cb96c0c010e1ee01ed",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WBTC-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBTC-USDC",
+      "protocol": "Uniswap",
+      "symbol": "WBTC-USDC",
+      "tokens": [
+        "WBTC",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+        "WBTC": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x4863b63ffa8ce68e349f92f10cbce87957340cd1",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-USDC",
+      "protocol": "Uniswap",
+      "symbol": "WETH-USDC",
+      "tokens": [
+        "WETH",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xf14b0fc0b6e2ce82cde29dabdbfb13c8b9e00316",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDe-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDe-USDT",
+      "protocol": "Uniswap",
+      "symbol": "USDe-USDT",
+      "tokens": [
+        "USDe",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+        "USDe": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xae2e9ac7c17decbbe784c07fd4be3687c24b6b6b",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 USDS-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDS-WETH",
+      "protocol": "Uniswap",
+      "symbol": "USDS-WETH",
+      "tokens": [
+        "USDS",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDS": "0x6491c05a82219b8d1479057361ff1654749b876b",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xb9727dc6369e4a43dd7b124c3da547900a2b1837",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WBTC-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBTC-USDT",
+      "protocol": "Uniswap",
+      "symbol": "WBTC-USDT",
+      "tokens": [
+        "WBTC",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+        "WBTC": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xd04bc65744306a5c149414dd3cd5c984d9d3470d",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-USDT",
+      "protocol": "Uniswap",
+      "symbol": "WETH-USDT",
+      "tokens": [
+        "WETH",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x67e196b9004478599b56674e411e80458c40dffb",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 XAUt-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "XAUt-USDT",
+      "protocol": "Uniswap",
+      "symbol": "XAUt-USDT",
+      "tokens": [
+        "XAUt",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+        "XAUt": "0x40461291347e1ecbb09499f3371d3f17f10d7159"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x8c1d83a25ee2da1643a5d937562682b1ac6c856b",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 WBTC-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBTC-WETH",
+      "protocol": "Uniswap",
+      "symbol": "WBTC-WETH",
+      "tokens": [
+        "WBTC",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WBTC": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xde96cf98bb64745d848733c08b7ea3333f038883",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 weETH-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "weETH-WETH",
+      "protocol": "Uniswap",
+      "symbol": "weETH-WETH",
+      "tokens": [
+        "weETH",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "weETH": "0x35751007a407ca6feffe80b3cb397736d2cf4dbe"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xc8eb52b1ce355e5d6dca0153cd01cf16bca3dc55",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 wstETH-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "wstETH-WETH",
+      "protocol": "Uniswap",
+      "symbol": "wstETH-WETH",
+      "tokens": [
+        "wstETH",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "wstETH": "0x5979d7b546e38e414f7e9822514be443a4800529"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xeb4239aac41a62a695d8dbddae268d785e308dc1",
+      "chain": "arbitrum",
+      "decimals": 18,
+      "name": "Uniswap V2 ZRO-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ZRO-WETH",
+      "protocol": "Uniswap",
+      "symbol": "ZRO-WETH",
+      "tokens": [
+        "ZRO",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "ZRO": "0x6985884c4392d348587b19cb9eaaf157f13271cd"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xb50f802539eee9ea176e807f95d7027a7d095769",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "WETH-AAVE",
+      "tokens": [
+        "WETH",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0x63706e401c06ac8513145b7687a14804d17f814b",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x9ded8b880fa4128ba9c564823e403c1ea5e04b8d",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-AERO",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-AERO",
+      "protocol": "Uniswap",
+      "symbol": "USDC-AERO",
+      "tokens": [
+        "USDC",
+        "AERO"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AERO": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+        "USDC": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xacefac2ce3c18eea30cf292a48e83d2daf75dca0",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 AERO-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "AERO-USDC",
+      "protocol": "Uniswap",
+      "symbol": "AERO-USDC",
+      "tokens": [
+        "AERO",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AERO": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+        "USDC": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x081ec5d6b68a28c9e3a73ec97e351161dbb5e8ef",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-AERO",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-AERO",
+      "protocol": "Uniswap",
+      "symbol": "WETH-AERO",
+      "tokens": [
+        "WETH",
+        "AERO"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AERO": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x6ba9c0c97faf56d47366b43e80bef9ba882fd286",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 cbETH-cbADA",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "cbETH-cbADA",
+      "protocol": "Uniswap",
+      "symbol": "cbETH-cbADA",
+      "tokens": [
+        "cbETH",
+        "cbADA"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "cbADA": "0xcbada732173e39521cdbe8bf59a6dc85a9fc7b8c",
+        "cbETH": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x6a29d1253030f25f2e13cd69db4c215ef4ecee0e",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-cbADA",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-cbADA",
+      "protocol": "Uniswap",
+      "symbol": "WETH-cbADA",
+      "tokens": [
+        "WETH",
+        "cbADA"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "cbADA": "0xcbada732173e39521cdbe8bf59a6dc85a9fc7b8c"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x5e29096e17506105bfec3ca29ebf2385eeaaa4d1",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 cbETH-cbBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "cbETH-cbBTC",
+      "protocol": "Uniswap",
+      "symbol": "cbETH-cbBTC",
+      "tokens": [
+        "cbETH",
+        "cbBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "cbBTC": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+        "cbETH": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x1d6b1189d4c43e772403abab2a809963e0bdf24e",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 EURC-cbBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "EURC-cbBTC",
+      "protocol": "Uniswap",
+      "symbol": "EURC-cbBTC",
+      "tokens": [
+        "EURC",
+        "cbBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "EURC": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
+        "cbBTC": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xa170bba3532f972409939ad64bcf42445d2cc9bc",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 tBTC-cbBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "tBTC-cbBTC",
+      "protocol": "Uniswap",
+      "symbol": "tBTC-cbBTC",
+      "tokens": [
+        "tBTC",
+        "cbBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "cbBTC": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+        "tBTC": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xe5947c01fb3a4b6703f9416c29ff736285bfd403",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-cbBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-cbBTC",
+      "protocol": "Uniswap",
+      "symbol": "USDC-cbBTC",
+      "tokens": [
+        "USDC",
+        "cbBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "cbBTC": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x0d00ae15444e5aa81a7b3340946488d1febe5ca9",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 cbBTC-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "cbBTC-USDC",
+      "protocol": "Uniswap",
+      "symbol": "cbBTC-USDC",
+      "tokens": [
+        "cbBTC",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+        "cbBTC": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x4fe4a5f570b046e3704acd72fef6c508a310d3aa",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-cbBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-cbBTC",
+      "protocol": "Uniswap",
+      "symbol": "WETH-cbBTC",
+      "tokens": [
+        "WETH",
+        "cbBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "cbBTC": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xf12e118f218b1a2f88b3fed2bdd5c3b8ab296516",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 wstETH-cbBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "wstETH-cbBTC",
+      "protocol": "Uniswap",
+      "symbol": "wstETH-cbBTC",
+      "tokens": [
+        "wstETH",
+        "cbBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "cbBTC": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+        "wstETH": "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x80e6946972b0c86d9cea497480c9cac92a85bc61",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 cbETH-cbDOGE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "cbETH-cbDOGE",
+      "protocol": "Uniswap",
+      "symbol": "cbETH-cbDOGE",
+      "tokens": [
+        "cbETH",
+        "cbDOGE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "cbDOGE": "0xcbd06e5a2b0c65597161de254aa074e489deb510",
+        "cbETH": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xa2127349d921d71ab4df59bf13b4b4af1a1e51e4",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 cbETH-cbLTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "cbETH-cbLTC",
+      "protocol": "Uniswap",
+      "symbol": "cbETH-cbLTC",
+      "tokens": [
+        "cbETH",
+        "cbLTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "cbETH": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+        "cbLTC": "0xcb17c9db87b595717c857a08468793f5bab6445f"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x0595773593abbbf826f6a4222c387881457a2487",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 cbETH-cbXRP",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "cbETH-cbXRP",
+      "protocol": "Uniswap",
+      "symbol": "cbETH-cbXRP",
+      "tokens": [
+        "cbETH",
+        "cbXRP"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "cbETH": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+        "cbXRP": "0xcb585250f852c6c6bf90434ab21a00f02833a4af"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xfd3736d85b504cddbd71443fac03a07e4b885f3d",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 cbETH-rETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "cbETH-rETH",
+      "protocol": "Uniswap",
+      "symbol": "cbETH-rETH",
+      "tokens": [
+        "cbETH",
+        "rETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "cbETH": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+        "rETH": "0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xcec60680894dffc387568d0e4d67c1c16958663d",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 cbETH-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "cbETH-USDC",
+      "protocol": "Uniswap",
+      "symbol": "cbETH-USDC",
+      "tokens": [
+        "cbETH",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "cbETH": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xfbece45140d1f42d2531399f9dd15c3276ef4372",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 cbETH-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "cbETH-USDC",
+      "protocol": "Uniswap",
+      "symbol": "cbETH-USDC",
+      "tokens": [
+        "cbETH",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+        "cbETH": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x17da8a93956add11368999d3999b5700f0752aa4",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 weETH-cbETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "weETH-cbETH",
+      "protocol": "Uniswap",
+      "symbol": "weETH-cbETH",
+      "tokens": [
+        "weETH",
+        "cbETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "cbETH": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
+        "weETH": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x9c15578ccc8e6530dd1c282e679aa2d63f1be607",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 cbETH-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "cbETH-WETH",
+      "protocol": "Uniswap",
+      "symbol": "cbETH-WETH",
+      "tokens": [
+        "cbETH",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "cbETH": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xdb2cc9d85e4455eb8af77384ec60db6119f8a302",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-cbXRP",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-cbXRP",
+      "protocol": "Uniswap",
+      "symbol": "WETH-cbXRP",
+      "tokens": [
+        "WETH",
+        "cbXRP"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "cbXRP": "0xcb585250f852c6c6bf90434ab21a00f02833a4af"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x739b272518ddc98bc8751b5544d1120dbc23792b",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-CRV",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-CRV",
+      "protocol": "Uniswap",
+      "symbol": "USDC-CRV",
+      "tokens": [
+        "USDC",
+        "CRV"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "CRV": "0x8ee73c484a26e0a5df2ee2a4960b789967dd0415",
+        "USDC": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x475a856c27d09f5ef24b22ff2b3bae8ce0136c5f",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-CRV",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-CRV",
+      "protocol": "Uniswap",
+      "symbol": "WETH-CRV",
+      "tokens": [
+        "WETH",
+        "CRV"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "CRV": "0x8ee73c484a26e0a5df2ee2a4960b789967dd0415",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x412a35141dd2fbda680969baeaae6da40234ae92",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 EURC-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "EURC-USDC",
+      "protocol": "Uniswap",
+      "symbol": "EURC-USDC",
+      "tokens": [
+        "EURC",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "EURC": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
+        "USDC": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x7202fc266e547f0ee4c982b7543260e7d2e38ed8",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-EURC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-EURC",
+      "protocol": "Uniswap",
+      "symbol": "WETH-EURC",
+      "tokens": [
+        "WETH",
+        "EURC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "EURC": "0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x4ed6664ac7fd98ef58788ea77ff00ac6ed233678",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 ezETH-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ezETH-WETH",
+      "protocol": "Uniswap",
+      "symbol": "ezETH-WETH",
+      "tokens": [
+        "ezETH",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "ezETH": "0x2416092f143378750bb29b79ed961ab195cceea5"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xb3fe95f178506e95d0f6109cf1047e9c1b871bf7",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-frxUSD",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-frxUSD",
+      "protocol": "Uniswap",
+      "symbol": "USDC-frxUSD",
+      "tokens": [
+        "USDC",
+        "frxUSD"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "frxUSD": "0xe5020a6d073a794b6e7f05678707de47986fb0b6"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xb8f486c959f2b8dc8625b03bd18538650a32d5da",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-LINK",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-LINK",
+      "protocol": "Uniswap",
+      "symbol": "USDC-LINK",
+      "tokens": [
+        "USDC",
+        "LINK"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "LINK": "0x88fb150bdc53a65fe94dea0c9ba0a6daf8c6e196",
+        "USDC": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x195b2d6cea8efac465f6edd3f9db7a761502fd00",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-LINK",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-LINK",
+      "protocol": "Uniswap",
+      "symbol": "WETH-LINK",
+      "tokens": [
+        "WETH",
+        "LINK"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "LINK": "0x88fb150bdc53a65fe94dea0c9ba0a6daf8c6e196",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xdedba8462f188d2009143abbb041b425139ad47a",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-MORPHO",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-MORPHO",
+      "protocol": "Uniswap",
+      "symbol": "WETH-MORPHO",
+      "tokens": [
+        "WETH",
+        "MORPHO"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "MORPHO": "0xbaa5cc21fd487b8fcc2f632f3f4e8d37262a0842",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x03197e8f232ded0b52544aa98b9fd2dd36dd02da",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 rsETH-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "rsETH-USDC",
+      "protocol": "Uniswap",
+      "symbol": "rsETH-USDC",
+      "tokens": [
+        "rsETH",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "rsETH": "0x1bc71130a0e39942a7658878169764bbd8a45993"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x7dba871bfc5a6dfec48d91d071242c57cb2f9a46",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 sUSDS-USDS",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "sUSDS-USDS",
+      "protocol": "Uniswap",
+      "symbol": "sUSDS-USDS",
+      "tokens": [
+        "sUSDS",
+        "USDS"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDS": "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
+        "sUSDS": "0x5875eee11cf8398102fdad704c9e96607675467a"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x0c93b4603d3e322fcd53abf89b7ac9d3d331f404",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 tBTC-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "tBTC-USDC",
+      "protocol": "Uniswap",
+      "symbol": "tBTC-USDC",
+      "tokens": [
+        "tBTC",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+        "tBTC": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x18a9b853f0f55d5af8c57eb2574471f1ce10e79f",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 tBTC-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "tBTC-WETH",
+      "protocol": "Uniswap",
+      "symbol": "tBTC-WETH",
+      "tokens": [
+        "tBTC",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "tBTC": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xdc12fedd5ed5bd72a737ee3a178b1cfbfebec8fa",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 USR-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USR-USDC",
+      "protocol": "Uniswap",
+      "symbol": "USR-USDC",
+      "tokens": [
+        "USR",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "USR": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-USDC",
+      "protocol": "Uniswap",
+      "symbol": "WETH-USDC",
+      "tokens": [
+        "WETH",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xbdc24dc777e7cab0c23cafaf4a5c904c3eed1ffb",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-wstETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-wstETH",
+      "protocol": "Uniswap",
+      "symbol": "USDC-wstETH",
+      "tokens": [
+        "USDC",
+        "wstETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+        "wstETH": "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xe6777063f20376e13fae504520e90212bb413a9a",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 USDe-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDe-USDC",
+      "protocol": "Uniswap",
+      "symbol": "USDe-USDC",
+      "tokens": [
+        "USDe",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+        "USDe": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xe902ef54e437967c8b37d30e80ff887955c90db6",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-USDC",
+      "protocol": "Uniswap",
+      "symbol": "WETH-USDC",
+      "tokens": [
+        "WETH",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x912ff30298f0713e56809e567f8074fe195cb34d",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-USDS",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-USDS",
+      "protocol": "Uniswap",
+      "symbol": "WETH-USDS",
+      "tokens": [
+        "WETH",
+        "USDS"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDS": "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x72013b322895693b942e5c0dbed12b5bea82cfe3",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 USR-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USR-WETH",
+      "protocol": "Uniswap",
+      "symbol": "USR-WETH",
+      "tokens": [
+        "USR",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USR": "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x37b2c8cb50606b7eba5ff569a36edf3c9282f3ca",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WBTC-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBTC-WETH",
+      "protocol": "Uniswap",
+      "symbol": "WBTC-WETH",
+      "tokens": [
+        "WBTC",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WBTC": "0x0555e30da8f98308edb960aa94c0db47230d2b9c",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x64aaeda9c8a8839933707c6c2facd520768ab034",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 weETH-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "weETH-WETH",
+      "protocol": "Uniswap",
+      "symbol": "weETH-WETH",
+      "tokens": [
+        "weETH",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "weETH": "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xf848c131722ceec41109597f60be73ccb4fe74ed",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-wstETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-wstETH",
+      "protocol": "Uniswap",
+      "symbol": "WETH-wstETH",
+      "tokens": [
+        "WETH",
+        "wstETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "wstETH": "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x79cf037d91e0445909b79a2d446385352e73c1b0",
+      "chain": "base",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-ZRO",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-ZRO",
+      "protocol": "Uniswap",
+      "symbol": "WETH-ZRO",
+      "tokens": [
+        "WETH",
+        "ZRO"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "ZRO": "0x6985884c4392d348587b19cb9eaaf157f13271cd"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x755e0f3b63b20c3bfc0d3f94642daa36782e5698",
+      "chain": "bsc",
+      "decimals": 18,
+      "name": "Uniswap V2 ezETH-WBNB",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ezETH-WBNB",
+      "protocol": "Uniswap",
+      "symbol": "ezETH-WBNB",
+      "tokens": [
+        "ezETH",
+        "WBNB"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WBNB": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "ezETH": "0x2416092f143378750bb29b79ed961ab195cceea5"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x23ea018860a36fedb1c0d46521b1632add8632ec",
+      "chain": "bsc",
+      "decimals": 18,
+      "name": "Uniswap V2 SolvBTC-WBNB",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "SolvBTC-WBNB",
+      "protocol": "Uniswap",
+      "symbol": "SolvBTC-WBNB",
+      "tokens": [
+        "SolvBTC",
+        "WBNB"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "SolvBTC": "0x4aae823a6a0b376de6a78e74ecc5b079d38cbcf7",
+        "WBNB": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x18ab21cdb9fc480dc21bf12890e541db8bee1ddf",
+      "chain": "bsc",
+      "decimals": 18,
+      "name": "Uniswap V2 WBNB-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBNB-UNI",
+      "protocol": "Uniswap",
+      "symbol": "WBNB-UNI",
+      "tokens": [
+        "WBNB",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0xbf5140a22578168fd562dccf235e5d43a02ce9b1",
+        "WBNB": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xb70c64b4ec3b0a5ebbecc787ef91964527ad4226",
+      "chain": "bsc",
+      "decimals": 18,
+      "name": "Uniswap V2 USD1-WBNB",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USD1-WBNB",
+      "protocol": "Uniswap",
+      "symbol": "USD1-WBNB",
+      "tokens": [
+        "USD1",
+        "WBNB"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USD1": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+        "WBNB": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x7ea6614a4418a0b52b60833825031bbb16584609",
+      "chain": "bsc",
+      "decimals": 18,
+      "name": "Uniswap V2 WBTC-WBNB",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBTC-WBNB",
+      "protocol": "Uniswap",
+      "symbol": "WBTC-WBNB",
+      "tokens": [
+        "WBTC",
+        "WBNB"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WBNB": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "WBTC": "0x0555e30da8f98308edb960aa94c0db47230d2b9c"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x21fbf92bbe1903d0af6e8b21c9ee5b43565bd3b9",
+      "chain": "bsc",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-WBNB",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-WBNB",
+      "protocol": "Uniswap",
+      "symbol": "WETH-WBNB",
+      "tokens": [
+        "WETH",
+        "WBNB"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WBNB": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "WETH": "0x2170ed0880ac9a755fd29b2688956bd959f933f8"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xaf4ff7e530dce9a677db0ca48ff029da45b84bf0",
+      "chain": "bsc",
+      "decimals": 18,
+      "name": "Uniswap V2 ZRO-WBNB",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ZRO-WBNB",
+      "protocol": "Uniswap",
+      "symbol": "ZRO-WBNB",
+      "tokens": [
+        "ZRO",
+        "WBNB"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WBNB": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+        "ZRO": "0x6985884c4392d348587b19cb9eaaf157f13271cd"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x4359bb2c881248ef1ab0a0488686873ab32dbae7",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 OP-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "OP-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "OP-AAVE",
+      "tokens": [
+        "OP",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0x76fb31fb4af56892a25e32cfc43de717950c9278",
+        "OP": "0x4200000000000000000000000000000000000042"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x350c1d46b1bc3580af446005b63ba1f9d042cae5",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "USDC-AAVE",
+      "tokens": [
+        "USDC",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0x76fb31fb4af56892a25e32cfc43de717950c9278",
+        "USDC": "0x0b2c639c533813f4aa9d7837caf62653d097ff85"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x1ebdf8cc73db0f42383a0aa1ca872076b019abd7",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "WETH-AAVE",
+      "tokens": [
+        "WETH",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0x76fb31fb4af56892a25e32cfc43de717950c9278",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x0619172500e7fd2547b28065595395031f88b4d1",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 CRV-WBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "CRV-WBTC",
+      "protocol": "Uniswap",
+      "symbol": "CRV-WBTC",
+      "tokens": [
+        "CRV",
+        "WBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "CRV": "0x0994206dfe8de6ec6920ff4d779b0d950605fb53",
+        "WBTC": "0x68f180fcce6836688e9084f035309e29bf0a2095"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xf52a6ec794f29756087c207fa295f320f29c028b",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 CRV-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "CRV-WETH",
+      "protocol": "Uniswap",
+      "symbol": "CRV-WETH",
+      "tokens": [
+        "CRV",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "CRV": "0x0994206dfe8de6ec6920ff4d779b0d950605fb53",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x42e1ee3e554d4ce0439cf0b505214e885353ef88",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 OP-DAI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "OP-DAI",
+      "protocol": "Uniswap",
+      "symbol": "OP-DAI",
+      "tokens": [
+        "OP",
+        "DAI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+        "OP": "0x4200000000000000000000000000000000000042"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x84bd961f83d19ee35239a12c410a05b6cf547e0f",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 UNI-DAI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "UNI-DAI",
+      "protocol": "Uniswap",
+      "symbol": "UNI-DAI",
+      "tokens": [
+        "UNI",
+        "DAI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+        "UNI": "0x6fd9d7ad17242c41f7131d257212c54a0e816691"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xaba4c3652f212e8006e52fbd5547a12b86390003",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-DAI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-DAI",
+      "protocol": "Uniswap",
+      "symbol": "WETH-DAI",
+      "tokens": [
+        "WETH",
+        "DAI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x895bb8b1cc9746b431b66b2114f46a7a57412980",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 FRAX-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "FRAX-WETH",
+      "protocol": "Uniswap",
+      "symbol": "FRAX-WETH",
+      "tokens": [
+        "FRAX",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "FRAX": "0x2e3d870790dc77a83dd1d18184acc7439a53f475",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x6b0631623dcd29aec33754253abb2f7c42d842aa",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 LINK-OP",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "LINK-OP",
+      "protocol": "Uniswap",
+      "symbol": "LINK-OP",
+      "tokens": [
+        "LINK",
+        "OP"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "LINK": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6",
+        "OP": "0x4200000000000000000000000000000000000042"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xa42d6207066fdcbd0d4f95123c95486e02f9b8ec",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-LINK",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-LINK",
+      "protocol": "Uniswap",
+      "symbol": "USDC-LINK",
+      "tokens": [
+        "USDC",
+        "LINK"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "LINK": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6",
+        "USDC": "0x0b2c639c533813f4aa9d7837caf62653d097ff85"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x57402ab043e02f0c54103214aa8a4b1ae941eb9b",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 LINK-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "LINK-USDC",
+      "protocol": "Uniswap",
+      "symbol": "LINK-USDC",
+      "tokens": [
+        "LINK",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "LINK": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6",
+        "USDC": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x095a84337f11458db7f53abb88ef6074d9f630c4",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 OP-rETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "OP-rETH",
+      "protocol": "Uniswap",
+      "symbol": "OP-rETH",
+      "tokens": [
+        "OP",
+        "rETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "OP": "0x4200000000000000000000000000000000000042",
+        "rETH": "0x9bcef72be871e61ed4fbbc7630889bee758eb81d"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xe60d70d1b7c3c37292bb83e9da9645536aa339e9",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 OP-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "OP-UNI",
+      "protocol": "Uniswap",
+      "symbol": "OP-UNI",
+      "tokens": [
+        "OP",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "OP": "0x4200000000000000000000000000000000000042",
+        "UNI": "0x6fd9d7ad17242c41f7131d257212c54a0e816691"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x2fbc7f425d5fe4dedcff77b45afaf7ac113e9662",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-OP",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-OP",
+      "protocol": "Uniswap",
+      "symbol": "USDC-OP",
+      "tokens": [
+        "USDC",
+        "OP"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "OP": "0x4200000000000000000000000000000000000042",
+        "USDC": "0x0b2c639c533813f4aa9d7837caf62653d097ff85"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x7b223a503964c0f5f12b9c3f9d977b21a83da24f",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 OP-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "OP-USDC",
+      "protocol": "Uniswap",
+      "symbol": "OP-USDC",
+      "tokens": [
+        "OP",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "OP": "0x4200000000000000000000000000000000000042",
+        "USDC": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xc36ab7527477744ab36f59af89898055d0eed4e3",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 OP-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "OP-USDT",
+      "protocol": "Uniswap",
+      "symbol": "OP-USDT",
+      "tokens": [
+        "OP",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "OP": "0x4200000000000000000000000000000000000042",
+        "USDT": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x9250e720c0f2bb732c598bee54c0aee195cea673",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 OP-WBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "OP-WBTC",
+      "protocol": "Uniswap",
+      "symbol": "OP-WBTC",
+      "tokens": [
+        "OP",
+        "WBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "OP": "0x4200000000000000000000000000000000000042",
+        "WBTC": "0x68f180fcce6836688e9084f035309e29bf0a2095"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xf3fe89650e170d4d54d8ddd41affde7369cbc7d3",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-OP",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-OP",
+      "protocol": "Uniswap",
+      "symbol": "WETH-OP",
+      "tokens": [
+        "WETH",
+        "OP"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "OP": "0x4200000000000000000000000000000000000042",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x11931971adaee2e235590d141266c19bcdd5514c",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-tBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-tBTC",
+      "protocol": "Uniswap",
+      "symbol": "WETH-tBTC",
+      "tokens": [
+        "WETH",
+        "tBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "tBTC": "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x1ae668af99edccf2a21a5e196e3949a4ea547ea9",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-UNI",
+      "protocol": "Uniswap",
+      "symbol": "USDC-UNI",
+      "tokens": [
+        "USDC",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0x6fd9d7ad17242c41f7131d257212c54a0e816691",
+        "USDC": "0x0b2c639c533813f4aa9d7837caf62653d097ff85"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xd369e7f6692664011ab4e2ebb04d0fa225868f31",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 UNI-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "UNI-USDT",
+      "protocol": "Uniswap",
+      "symbol": "UNI-USDT",
+      "tokens": [
+        "UNI",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0x6fd9d7ad17242c41f7131d257212c54a0e816691",
+        "USDT": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xdad0511b8c4d3a90c7ee0f2a739af9582233611d",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-UNI",
+      "protocol": "Uniswap",
+      "symbol": "WETH-UNI",
+      "tokens": [
+        "WETH",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0x6fd9d7ad17242c41f7131d257212c54a0e816691",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x1ca36afecef01ef6a555dc25cb2f0d07b172d748",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 USDT-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDT-USDC",
+      "protocol": "Uniswap",
+      "symbol": "USDT-USDC",
+      "tokens": [
+        "USDT",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+        "USDT": "0x01bff41798a0bcf287b996046ca68b395dbc1071"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x6728bfc6f086801c6fdaa8a3689ff498ed071704",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-USDT",
+      "protocol": "Uniswap",
+      "symbol": "USDC-USDT",
+      "tokens": [
+        "USDC",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+        "USDT": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x57befd16d7bbc4992463c3e5892f9b7bd5ceab0a",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-WBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-WBTC",
+      "protocol": "Uniswap",
+      "symbol": "USDC-WBTC",
+      "tokens": [
+        "USDC",
+        "WBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+        "WBTC": "0x68f180fcce6836688e9084f035309e29bf0a2095"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x4c43646304492a925e335f2b6d840c1489f17815",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-WETH",
+      "protocol": "Uniswap",
+      "symbol": "USDC-WETH",
+      "tokens": [
+        "USDC",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x023fd380740d636dee320deaa19b75e377c688b7",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-USDT",
+      "protocol": "Uniswap",
+      "symbol": "USDC-USDT",
+      "tokens": [
+        "USDC",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+        "USDT": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xa3886dd2986059573c37f919b9095db1257671d1",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-USDC",
+      "protocol": "Uniswap",
+      "symbol": "WETH-USDC",
+      "tokens": [
+        "WETH",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xc2355723137e5d1969310721d4e31eccba56981c",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 USDT-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDT-WETH",
+      "protocol": "Uniswap",
+      "symbol": "USDT-WETH",
+      "tokens": [
+        "USDT",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0x01bff41798a0bcf287b996046ca68b395dbc1071",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x2f629782c58918252970ab038d3fbd16e84d5076",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-USDT",
+      "protocol": "Uniswap",
+      "symbol": "WETH-USDT",
+      "tokens": [
+        "WETH",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x35b2e64fe12edc632fd3c59a85e5137da35c762a",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 ZRO-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ZRO-USDT",
+      "protocol": "Uniswap",
+      "symbol": "ZRO-USDT",
+      "tokens": [
+        "ZRO",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+        "ZRO": "0x6985884c4392d348587b19cb9eaaf157f13271cd"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x8782edc55c8514bf30e36a3585afcadbff525c77",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-WBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-WBTC",
+      "protocol": "Uniswap",
+      "symbol": "WETH-WBTC",
+      "tokens": [
+        "WETH",
+        "WBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WBTC": "0x68f180fcce6836688e9084f035309e29bf0a2095",
+        "WETH": "0x4200000000000000000000000000000000000006"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x6af197e64d1556d7c8ffa67138bbf8e445472a81",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-weETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-weETH",
+      "protocol": "Uniswap",
+      "symbol": "WETH-weETH",
+      "tokens": [
+        "WETH",
+        "weETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "weETH": "0x5a7facb970d094b6c7ff1df0ea68d99e6e73cbff"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xbf4596bceb888e548349cef0e8fc6d36747009b7",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-wrsETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-wrsETH",
+      "protocol": "Uniswap",
+      "symbol": "WETH-wrsETH",
+      "tokens": [
+        "WETH",
+        "wrsETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "wrsETH": "0x87eee96d50fb761ad85b1c982d28a042169d61b1"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x9a40c1c8c7eb00a1852fc6dd22b09c68d75e0698",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 wstETH-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "wstETH-WETH",
+      "protocol": "Uniswap",
+      "symbol": "wstETH-WETH",
+      "tokens": [
+        "wstETH",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "wstETH": "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x0a2f9abc2070c1ee1d35a12d8b459da3edb93f4d",
+      "chain": "optimism",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-ZRO",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-ZRO",
+      "protocol": "Uniswap",
+      "symbol": "WETH-ZRO",
+      "tokens": [
+        "WETH",
+        "ZRO"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x4200000000000000000000000000000000000006",
+        "ZRO": "0x6985884c4392d348587b19cb9eaaf157f13271cd"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xa8553ceec09446d7fedc1460cd54fe04b6bce89c",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 DAI-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "DAI-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "DAI-AAVE",
+      "tokens": [
+        "DAI",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+        "DAI": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x282e595ab6b3d46a3c4309c49c9be62f5e820410",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 UNI-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "UNI-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "UNI-AAVE",
+      "tokens": [
+        "UNI",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+        "UNI": "0xb33eaad8d922b1083446dc23f610c2567fb5180f"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xbdb26aa19e962041e1eee0167350adef1c1c9944",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "USDC-AAVE",
+      "tokens": [
+        "USDC",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+        "USDC": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xe88006e09fa1a0d1924b9f3113328f9dc9247b88",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 USDT-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDT-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "USDT-AAVE",
+      "tokens": [
+        "USDT",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+        "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x4fd9d73e5febb1b055644afa9ed1a64fbb0b2b5e",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WBTC-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBTC-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "WBTC-AAVE",
+      "tokens": [
+        "WBTC",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+        "WBTC": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x02af0fbf46422cc61eb368f9375cae60715465c6",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "WETH-AAVE",
+      "tokens": [
+        "WETH",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+        "WETH": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xb2bb7c1c176ba8f2ef4230e28175b841e60ef692",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WPOL-AAVE",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WPOL-AAVE",
+      "protocol": "Uniswap",
+      "symbol": "WPOL-AAVE",
+      "tokens": [
+        "WPOL",
+        "AAVE"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "AAVE": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x9be5e79a448242f239d2474aa7981d845259ae36",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 tBTC-cbETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "tBTC-cbETH",
+      "protocol": "Uniswap",
+      "symbol": "tBTC-cbETH",
+      "tokens": [
+        "tBTC",
+        "cbETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "cbETH": "0x4b4327db1600b8b1440163f667e199cef35385f5",
+        "tBTC": "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x5f5e730dbe361eb02eddf54363d26dd19a627c15",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 CRV-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "CRV-USDC",
+      "protocol": "Uniswap",
+      "symbol": "CRV-USDC",
+      "tokens": [
+        "CRV",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "CRV": "0x172370d5cd63279efa6d502dab29171933a610af",
+        "USDC": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xc830d13ba373e8c78a277300c39aaab73f1c2e8e",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WPOL-CRV",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WPOL-CRV",
+      "protocol": "Uniswap",
+      "symbol": "WPOL-CRV",
+      "tokens": [
+        "WPOL",
+        "CRV"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "CRV": "0x172370d5cd63279efa6d502dab29171933a610af",
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xe7ad988cc0117567b442b7799904d2d23166b0df",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-DAI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-DAI",
+      "protocol": "Uniswap",
+      "symbol": "USDC-DAI",
+      "tokens": [
+        "USDC",
+        "DAI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+        "USDC": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xce9b53055a554ca68571481c58dce4d9241d0d7b",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-DAI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-DAI",
+      "protocol": "Uniswap",
+      "symbol": "USDC-DAI",
+      "tokens": [
+        "USDC",
+        "DAI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+        "USDC": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x9e7720e0a9f3cf4ab95d8903fac8e5867d9dc0f6",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 DAI-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "DAI-USDT",
+      "protocol": "Uniswap",
+      "symbol": "DAI-USDT",
+      "tokens": [
+        "DAI",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+        "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x3ae60927af14153404fad765807d5978bc713f2f",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-DAI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-DAI",
+      "protocol": "Uniswap",
+      "symbol": "WETH-DAI",
+      "tokens": [
+        "WETH",
+        "DAI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+        "WETH": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x38d7b6a3bca735633ddd9927a8c6bc60371326ea",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WPOL-DAI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WPOL-DAI",
+      "protocol": "Uniswap",
+      "symbol": "WPOL-DAI",
+      "tokens": [
+        "WPOL",
+        "DAI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "DAI": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x38a15da4671b9877ee72e3b72e81af015ae35e66",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WPOL-EURe",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WPOL-EURe",
+      "protocol": "Uniswap",
+      "symbol": "WPOL-EURe",
+      "tokens": [
+        "WPOL",
+        "EURe"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "EURe": "0x18ec0a6e18e5bc3784fdd3a3634b31245ab704f6",
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x95457bb51b58c2a126328f51986927f36d4c0e07",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WPOL-FRAX",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WPOL-FRAX",
+      "protocol": "Uniswap",
+      "symbol": "WPOL-FRAX",
+      "tokens": [
+        "WPOL",
+        "FRAX"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "FRAX": "0x45c32fa6df82ead1e2ef74d17b76547eddfaff89",
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xc353e2bd217d5fa9d0468a04f718370d4df10949",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 SUSHI-WPOL",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "SUSHI-WPOL",
+      "protocol": "Uniswap",
+      "symbol": "SUSHI-WPOL",
+      "tokens": [
+        "SUSHI",
+        "WPOL"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "SUSHI": "0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a",
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xd8b1a79f4435807a3b924c38074612d26896f3c9",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-UNI",
+      "protocol": "Uniswap",
+      "symbol": "USDC-UNI",
+      "tokens": [
+        "USDC",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+        "USDC": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x5a2127dffd26f1180aaffcd7cc2230bf4cf88d08",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 UNI-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "UNI-USDT",
+      "protocol": "Uniswap",
+      "symbol": "UNI-USDT",
+      "tokens": [
+        "UNI",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+        "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x254b57dac3182e6dc9f7da3e9a58eefa2284507f",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-UNI",
+      "protocol": "Uniswap",
+      "symbol": "WETH-UNI",
+      "tokens": [
+        "WETH",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+        "WETH": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x024bb5a825b4ea68de28a7075f6e7fc66916c93a",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WPOL-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WPOL-UNI",
+      "protocol": "Uniswap",
+      "symbol": "WPOL-UNI",
+      "tokens": [
+        "WPOL",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xdd63c6aa81d3fe7579f783d5527223824506b3cc",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 wstETH-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "wstETH-UNI",
+      "protocol": "Uniswap",
+      "symbol": "wstETH-UNI",
+      "tokens": [
+        "wstETH",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0xb33eaad8d922b1083446dc23f610c2567fb5180f",
+        "wstETH": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x7fc2d88d6f8179beda0acbd166c093388790d653",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-USDT",
+      "protocol": "Uniswap",
+      "symbol": "USDC-USDT",
+      "tokens": [
+        "USDC",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x9709d28dd2d3fa1a50f40b23d8aa26c854299082",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WBTC-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBTC-USDC",
+      "protocol": "Uniswap",
+      "symbol": "WBTC-USDC",
+      "tokens": [
+        "WBTC",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "WBTC": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xde32c9ebdd5f587e0f677d5adcac593ecfffd91a",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-WETH",
+      "protocol": "Uniswap",
+      "symbol": "USDC-WETH",
+      "tokens": [
+        "USDC",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "WETH": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xfc4912b5440d628d2337a16363d16a5e3a9cba04",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WPOL-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WPOL-USDC",
+      "protocol": "Uniswap",
+      "symbol": "WPOL-USDC",
+      "tokens": [
+        "WPOL",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x2331153d1fd68609906d90822b62f7ffc7d172dd",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-USDT",
+      "protocol": "Uniswap",
+      "symbol": "USDC-USDT",
+      "tokens": [
+        "USDC",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+        "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xe8c9c24bef8483ea8c210474771460b349880e4f",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WBTC-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBTC-USDC",
+      "protocol": "Uniswap",
+      "symbol": "WBTC-USDC",
+      "tokens": [
+        "WBTC",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+        "WBTC": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x67473ebdbfd1e6fc4367462d55ed1ee56e1963fa",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-WETH",
+      "protocol": "Uniswap",
+      "symbol": "USDC-WETH",
+      "tokens": [
+        "USDC",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+        "WETH": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x1f0c5400a3c7e357cc7c9a3d2f7fe6ddf629d868",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WPOL-USDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WPOL-USDC",
+      "protocol": "Uniswap",
+      "symbol": "WPOL-USDC",
+      "tokens": [
+        "WPOL",
+        "USDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xc8f1932c523a0d2b017e4893f1d79945ca0789ca",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WBTC-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBTC-USDT",
+      "protocol": "Uniswap",
+      "symbol": "WBTC-USDT",
+      "tokens": [
+        "WBTC",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "WBTC": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x92a0e9a04cf2d519c7fba179da43a08f5a1aea7e",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WETH-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WETH-USDT",
+      "protocol": "Uniswap",
+      "symbol": "WETH-USDT",
+      "tokens": [
+        "WETH",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "WETH": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x93ca061a80bfb622e7b529f6de1fde4a9129cf8e",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WPOL-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WPOL-USDT",
+      "protocol": "Uniswap",
+      "symbol": "WPOL-USDT",
+      "tokens": [
+        "WPOL",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xfc021eca017ad2d22a57d1d120e31e47342fee15",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 USDT-XAUt",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDT-XAUt",
+      "protocol": "Uniswap",
+      "symbol": "USDT-XAUt",
+      "tokens": [
+        "USDT",
+        "XAUt"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "XAUt": "0xf1815bd50389c46847f0bda824ec8da914045d14"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xd9bb286577cc7a842c7c35c79fc8bef39e1064d0",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 ZRO-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ZRO-USDT",
+      "protocol": "Uniswap",
+      "symbol": "ZRO-USDT",
+      "tokens": [
+        "ZRO",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDT": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "ZRO": "0x6985884c4392d348587b19cb9eaaf157f13271cd"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x5d7cca95f25d5dddbb0cd125f00164dde0a130a0",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WBTC-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WBTC-WETH",
+      "protocol": "Uniswap",
+      "symbol": "WBTC-WETH",
+      "tokens": [
+        "WBTC",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WBTC": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+        "WETH": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x477b698e1900a4ea32e8fea9911ddecdddb90b94",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WPOL-WBTC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WPOL-WBTC",
+      "protocol": "Uniswap",
+      "symbol": "WPOL-WBTC",
+      "tokens": [
+        "WPOL",
+        "WBTC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WBTC": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x711b6f6788e4cb0f7034bf02b149118a46e500c2",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WPOL-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WPOL-WETH",
+      "protocol": "Uniswap",
+      "symbol": "WPOL-WETH",
+      "tokens": [
+        "WPOL",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x5bd6de6830a04202335a16e54e5d73721a027fd4",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 wstETH-WETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "wstETH-WETH",
+      "protocol": "Uniswap",
+      "symbol": "wstETH-WETH",
+      "tokens": [
+        "wstETH",
+        "WETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WETH": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+        "wstETH": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xc4e610b8ff8699a7d9b520598e297e4b8a562307",
+      "chain": "polygon",
+      "decimals": 18,
+      "name": "Uniswap V2 WPOL-ZRO",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "WPOL-ZRO",
+      "protocol": "Uniswap",
+      "symbol": "WPOL-ZRO",
+      "tokens": [
+        "WPOL",
+        "ZRO"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "WPOL": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+        "ZRO": "0x6985884c4392d348587b19cb9eaaf157f13271cd"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xfdf74748a546a02f8f631f86ee88d86a361ee732",
+      "chain": "unichain",
+      "decimals": 18,
+      "name": "Uniswap V2 ezETH-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ezETH-UNI",
+      "protocol": "Uniswap",
+      "symbol": "ezETH-UNI",
+      "tokens": [
+        "ezETH",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0x8f187aa05619a017077f5308904739877ce9ea21",
+        "ezETH": "0x2416092f143378750bb29b79ed961ab195cceea5"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x03e2891cb016410dcfce124f78b340af8fe317d0",
+      "chain": "unichain",
+      "decimals": 18,
+      "name": "Uniswap V2 ezETH-wstETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "ezETH-wstETH",
+      "protocol": "Uniswap",
+      "symbol": "ezETH-wstETH",
+      "tokens": [
+        "ezETH",
+        "wstETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "ezETH": "0x2416092f143378750bb29b79ed961ab195cceea5",
+        "wstETH": "0xc02fe7317d4eb8753a02c35fe019786854a92001"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xd6ea67f564ce301eb17c62e3d99935594636e28b",
+      "chain": "unichain",
+      "decimals": 18,
+      "name": "Uniswap V2 rETH-wstETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "rETH-wstETH",
+      "protocol": "Uniswap",
+      "symbol": "rETH-wstETH",
+      "tokens": [
+        "rETH",
+        "wstETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "rETH": "0x94cac393f3444cef63a651ffc18497e7e8bd036a",
+        "wstETH": "0xc02fe7317d4eb8753a02c35fe019786854a92001"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x53266d8baf442f0dbb019c95770e65a630446caf",
+      "chain": "unichain",
+      "decimals": 18,
+      "name": "Uniswap V2 sUSDC-sUSDS",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "sUSDC-sUSDS",
+      "protocol": "Uniswap",
+      "symbol": "sUSDC-sUSDS",
+      "tokens": [
+        "sUSDC",
+        "sUSDS"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "sUSDC": "0x14d9143becc348920b68d123687045db49a016c6",
+        "sUSDS": "0xa06b10db9f390990364a3984c04fadf1c13691b5"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x02f5d29a2fea51f8386a1825481d6485a575a743",
+      "chain": "unichain",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-sUSDC",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-sUSDC",
+      "protocol": "Uniswap",
+      "symbol": "USDC-sUSDC",
+      "tokens": [
+        "USDC",
+        "sUSDC"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x078d782b760474a361dda0af3839290b0ef57ad6",
+        "sUSDC": "0x14d9143becc348920b68d123687045db49a016c6"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x7cfb8259e2302f31d5644cb8305f1ed01597dd1f",
+      "chain": "unichain",
+      "decimals": 18,
+      "name": "Uniswap V2 USDS-sUSDS",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDS-sUSDS",
+      "protocol": "Uniswap",
+      "symbol": "USDS-sUSDS",
+      "tokens": [
+        "USDS",
+        "sUSDS"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDS": "0x7e10036acc4b56d4dfca3b77810356ce52313f9c",
+        "sUSDS": "0xa06b10db9f390990364a3984c04fadf1c13691b5"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x6c592c708d6e12144bc0d185e0d6f8f7405283ed",
+      "chain": "unichain",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-UNI",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-UNI",
+      "protocol": "Uniswap",
+      "symbol": "USDC-UNI",
+      "tokens": [
+        "USDC",
+        "UNI"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0x8f187aa05619a017077f5308904739877ce9ea21",
+        "USDC": "0x078d782b760474a361dda0af3839290b0ef57ad6"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x70c885dd76af9006025be0dbd4283c37b08f714e",
+      "chain": "unichain",
+      "decimals": 18,
+      "name": "Uniswap V2 UNI-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "UNI-USDT",
+      "protocol": "Uniswap",
+      "symbol": "UNI-USDT",
+      "tokens": [
+        "UNI",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0x8f187aa05619a017077f5308904739877ce9ea21",
+        "USDT": "0x9151434b16b9763660705744891fa906f660ecc5"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x5b4d8f5beac3bfab48723d62db3c861a832a2714",
+      "chain": "unichain",
+      "decimals": 18,
+      "name": "Uniswap V2 UNI-wstETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "UNI-wstETH",
+      "protocol": "Uniswap",
+      "symbol": "UNI-wstETH",
+      "tokens": [
+        "UNI",
+        "wstETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "UNI": "0x8f187aa05619a017077f5308904739877ce9ea21",
+        "wstETH": "0xc02fe7317d4eb8753a02c35fe019786854a92001"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0xc536e0d1f44b8a405779a05095266f4db4b447bb",
+      "chain": "unichain",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-USDT",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-USDT",
+      "protocol": "Uniswap",
+      "symbol": "USDC-USDT",
+      "tokens": [
+        "USDC",
+        "USDT"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x078d782b760474a361dda0af3839290b0ef57ad6",
+        "USDT": "0x9151434b16b9763660705744891fa906f660ecc5"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x244158c7372228524fbdde66b02eb929ac68fa11",
+      "chain": "unichain",
+      "decimals": 18,
+      "name": "Uniswap V2 USDC-weETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "USDC-weETH",
+      "protocol": "Uniswap",
+      "symbol": "USDC-weETH",
+      "tokens": [
+        "USDC",
+        "weETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "USDC": "0x078d782b760474a361dda0af3839290b0ef57ad6",
+        "weETH": "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7"
+      },
+      "version": "V2"
+    },
+    {
+      "address": "0x0346a65f2320151bccb98b25ac27bb2944a395b2",
+      "chain": "unichain",
+      "decimals": 18,
+      "name": "Uniswap V2 weETH-wstETH",
+      "onchain_name": "Uniswap V2",
+      "onchain_symbol": "UNI-V2",
+      "pool": "weETH-wstETH",
+      "protocol": "Uniswap",
+      "symbol": "weETH-wstETH",
+      "tokens": [
+        "weETH",
+        "wstETH"
+      ],
+      "type": "locked",
+      "underlying_addresses": {
+        "weETH": "0x7dcc39b4d1c53cb31e1abc0e358b43987fef80f7",
+        "wstETH": "0xc02fe7317d4eb8753a02c35fe019786854a92001"
+      },
+      "version": "V2"
+    }
+  ]
+}

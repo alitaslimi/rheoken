@@ -1,0 +1,20 @@
+[project]
+name            = "rheoken"
+version         = "0.1.0"
+description     = "Open-source token registry for Rheoken"
+readme          = "README.md"
+license         = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors         = [{ name = "Ali Taslimi" }]
+keywords        = ["blockchain", "tokens", "rheoken"]
+dependencies    = [
+    "web3>=6.0.0",
+]
+
+[project.urls]
+Homepage   = "https://rheoken.com"
+Repository = "https://github.com/alitaslimi/rheoken"
+Issues     = "https://github.com/alitaslimi/rheoken/issues"
+
+[dependency-groups]
+dev = ["ruff", "pytest"]

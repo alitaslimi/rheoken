@@ -1,0 +1,1329 @@
+{
+  "taxonomies": {
+    "AAVE": {
+      "category": "Governance",
+      "issuer": "Aave",
+      "prices": {
+        "coingecko_id": "aave"
+      }
+    },
+    "AERO": {
+      "category": "Governance",
+      "issuer": "Aerodrome",
+      "prices": {
+        "coingecko_id": "aerodrome-finance"
+      }
+    },
+    "agETH": {
+      "category": "Liquid Restaking",
+      "denomination": "ETH",
+      "issuer": "Kelp",
+      "prices": {
+        "coingecko_id": "kelp-gain"
+      }
+    },
+    "ARB": {
+      "category": "Governance",
+      "issuer": "Arbitrum",
+      "prices": {
+        "coingecko_id": "arbitrum"
+      }
+    },
+    "AUSD": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Agora",
+      "prices": {
+        "coingecko_id": "agora-dollar"
+      }
+    },
+    "BTC+": {
+      "category": "Yield Bearing",
+      "denomination": "BTC",
+      "issuer": "Solv"
+    },
+    "BTC.b": {
+      "category": "Wrapped",
+      "denomination": "BTC",
+      "issuer": "Lombard",
+      "prices": {
+        "coingecko_id": "bitcoin-avalanche-bridged-btc-b"
+      }
+    },
+    "BTCe": {
+      "category": "Wrapped",
+      "denomination": "BTC",
+      "issuer": "Lombard",
+      "prices": {
+        "coingecko_id": "bitcoin-2015-wrapper-meme"
+      }
+    },
+    "bUSD0": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Usual",
+      "prices": {
+        "coingecko_id": "usd0-liquid-bond"
+      }
+    },
+    "bzSOL": {
+      "category": "Liquid Restaking",
+      "denomination": "SOL",
+      "issuer": "Renzo",
+      "prices": {
+        "coingecko_id": "restaked-binance-staked-sol"
+      }
+    },
+    "cbADA": {
+      "category": "Wrapped",
+      "denomination": "ADA",
+      "issuer": "Coinbase",
+      "prices": {
+        "coingecko_id": "coinbase-wrapped-ada"
+      }
+    },
+    "cbBTC": {
+      "category": "Wrapped",
+      "denomination": "BTC",
+      "issuer": "Coinbase",
+      "prices": {
+        "coingecko_id": "coinbase-wrapped-btc"
+      }
+    },
+    "cbDOGE": {
+      "category": "Wrapped",
+      "denomination": "DOGE",
+      "issuer": "Coinbase",
+      "prices": {
+        "coingecko_id": "coinbase-wrapped-doge"
+      }
+    },
+    "cbETH": {
+      "category": "Liquid Staking",
+      "denomination": "ETH",
+      "issuer": "Coinbase",
+      "prices": {
+        "coingecko_id": "coinbase-wrapped-staked-eth"
+      }
+    },
+    "cbLTC": {
+      "category": "Wrapped",
+      "denomination": "LTC",
+      "issuer": "Coinbase",
+      "prices": {
+        "coingecko_id": "coinbase-wrapped-ltc"
+      }
+    },
+    "cbMEGA": {
+      "category": "Wrapped",
+      "denomination": "MEGA",
+      "issuer": "Coinbase",
+      "prices": {
+        "coingecko_id": "coinbase-wrapped-mega"
+      }
+    },
+    "cbXRP": {
+      "category": "Wrapped",
+      "denomination": "XRP",
+      "issuer": "Coinbase",
+      "prices": {
+        "coingecko_id": "coinbase-wrapped-xrp"
+      }
+    },
+    "CELO": {
+      "category": "Native",
+      "issuer": "Celo",
+      "prices": {
+        "coingecko_id": "celo"
+      }
+    },
+    "chfSAFO": {
+      "category": "Yield Bearing",
+      "denomination": "CHF",
+      "issuer": "Spiko",
+      "prices": {
+        "coingecko_id": "spiko-amundi-overnight-swap-fund-chf"
+      }
+    },
+    "CHIP": {
+      "category": "Governance",
+      "issuer": "USD.AI",
+      "prices": {
+        "coingecko_id": "chip-2"
+      },
+      "protocol": "USD.AI"
+    },
+    "CNHT": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "CNH",
+      "issuer": "Tether"
+    },
+    "CRV": {
+      "category": "Governance",
+      "issuer": "Curve",
+      "prices": {
+        "coingecko_id": "curve-dao-token"
+      }
+    },
+    "crvUSD": {
+      "backing": "Crypto",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Curve",
+      "prices": {
+        "coingecko_id": "crvusd"
+      }
+    },
+    "DAI": {
+      "backing": "Crypto",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Sky",
+      "prices": {
+        "coingecko_id": "dai"
+      }
+    },
+    "eBTC": {
+      "category": "Liquid Restaking",
+      "denomination": "BTC",
+      "issuer": "EtherFi",
+      "prices": {
+        "coingecko_id": "ether-fi-staked-btc"
+      }
+    },
+    "eETH": {
+      "category": "Liquid Restaking",
+      "denomination": "ETH",
+      "issuer": "EtherFi",
+      "prices": {
+        "coingecko_id": "ether-fi-staked-eth"
+      }
+    },
+    "EIGEN": {
+      "category": "Governance",
+      "issuer": "EigenLayer",
+      "prices": {
+        "coingecko_id": "eigenlayer"
+      }
+    },
+    "ENA": {
+      "category": "Governance",
+      "issuer": "Ethena",
+      "prices": {
+        "coingecko_id": "ethena"
+      }
+    },
+    "ETH0": {
+      "category": "Yield Bearing",
+      "denomination": "ETH",
+      "issuer": "Usual",
+      "prices": {
+        "coingecko_id": "eth0"
+      }
+    },
+    "ETHFI": {
+      "category": "Governance",
+      "issuer": "EtherFi",
+      "prices": {
+        "coingecko_id": "ether-fi"
+      }
+    },
+    "ETHx": {
+      "category": "Liquid Staking",
+      "denomination": "ETH",
+      "issuer": "Stader",
+      "prices": {
+        "coingecko_id": "stader-ethx"
+      }
+    },
+    "EUL": {
+      "category": "Governance",
+      "issuer": "Euler",
+      "prices": {
+        "coingecko_id": "euler"
+      }
+    },
+    "EUR0": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "EUR",
+      "issuer": "Usual",
+      "prices": {
+        "coingecko_id": "usual-eur"
+      }
+    },
+    "EURC": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "EUR",
+      "issuer": "Circle",
+      "prices": {
+        "coingecko_id": "euro-coin"
+      }
+    },
+    "EURe": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "EUR",
+      "issuer": "Monerium",
+      "prices": {
+        "coingecko_id": "monerium-eur-money"
+      }
+    },
+    "EURR": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "EUR",
+      "issuer": "StablR",
+      "prices": {
+        "coingecko_id": "stablr-euro"
+      }
+    },
+    "eurSAFO": {
+      "category": "Yield Bearing",
+      "denomination": "EUR",
+      "issuer": "Spiko",
+      "prices": {
+        "coingecko_id": "spiko-amundi-overnight-swap-fund-eur"
+      }
+    },
+    "eurSPKCC": {
+      "category": "Yield Bearing",
+      "denomination": "EUR",
+      "issuer": "Spiko",
+      "prices": {
+        "coingecko_id": "spiko-digital-assets-cash-carry-fund-euro-share-class"
+      }
+    },
+    "EURT": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "EUR",
+      "issuer": "Tether",
+      "prices": {
+        "coingecko_id": "tether-eurt"
+      }
+    },
+    "EUTBL": {
+      "category": "Yield Bearing",
+      "denomination": "EUR",
+      "issuer": "Spiko",
+      "prices": {
+        "coingecko_id": "eutbl"
+      }
+    },
+    "ezEIGEN": {
+      "category": "Liquid Restaking",
+      "issuer": "Renzo"
+    },
+    "ezETH": {
+      "category": "Liquid Restaking",
+      "denomination": "ETH",
+      "issuer": "Renzo",
+      "prices": {
+        "coingecko_id": "renzo-restaked-eth"
+      }
+    },
+    "ezJTO": {
+      "category": "Liquid Restaking",
+      "issuer": "Renzo",
+      "prices": {
+        "coingecko_id": "renzo-restaked-jto"
+      }
+    },
+    "ezREZ": {
+      "category": "Liquid Restaking",
+      "issuer": "Renzo"
+    },
+    "ezSOL": {
+      "category": "Liquid Restaking",
+      "denomination": "SOL",
+      "issuer": "Renzo",
+      "prices": {
+        "coingecko_id": "renzo-restaked-sol"
+      }
+    },
+    "FLUID": {
+      "category": "Governance",
+      "issuer": "Fluid",
+      "prices": {
+        "coingecko_id": "instadapp"
+      }
+    },
+    "FPI": {
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Frax",
+      "prices": {
+        "coingecko_id": "frax-price-index"
+      }
+    },
+    "FPIS": {
+      "category": "Governance",
+      "issuer": "Frax",
+      "prices": {
+        "coingecko_id": "frax-price-index-share"
+      }
+    },
+    "FRAX": {
+      "backing": "Crypto",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Frax",
+      "prices": {
+        "coingecko_id": "frax"
+      }
+    },
+    "frxBTC": {
+      "category": "Wrapped",
+      "denomination": "BTC",
+      "issuer": "Frax"
+    },
+    "frxETH": {
+      "category": "Liquid Staking",
+      "denomination": "ETH",
+      "issuer": "Frax",
+      "prices": {
+        "coingecko_id": "frax-ether"
+      }
+    },
+    "frxUSD": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Frax",
+      "prices": {
+        "coingecko_id": "frax-usd"
+      }
+    },
+    "GBPe": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "GBP",
+      "issuer": "Monerium",
+      "prices": {
+        "coingecko_id": "monerium-gbp-emoney"
+      }
+    },
+    "gbpSAFO": {
+      "category": "Yield Bearing",
+      "denomination": "GBP",
+      "issuer": "Spiko",
+      "prices": {
+        "coingecko_id": "spiko-amundi-overnight-swap-fund-gbp"
+      }
+    },
+    "GHO": {
+      "backing": "Crypto",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Aave",
+      "prices": {
+        "coingecko_id": "gho"
+      }
+    },
+    "GNO": {
+      "category": "Governance",
+      "issuer": "Gnosis",
+      "prices": {
+        "coingecko_id": "gnosis"
+      }
+    },
+    "hgETH": {
+      "category": "Liquid Restaking",
+      "denomination": "ETH",
+      "issuer": "Kelp"
+    },
+    "KERNEL": {
+      "category": "Governance",
+      "issuer": "Kernel",
+      "prices": {
+        "coingecko_id": "kernel-2"
+      }
+    },
+    "LBTC": {
+      "category": "Liquid Staking",
+      "denomination": "BTC",
+      "issuer": "Lombard",
+      "prices": {
+        "coingecko_id": "lombard-staked-btc"
+      }
+    },
+    "LBTCv": {
+      "category": "Yield Bearing",
+      "denomination": "BTC",
+      "issuer": "Lombard"
+    },
+    "LDO": {
+      "category": "Governance",
+      "issuer": "Lido",
+      "prices": {
+        "coingecko_id": "lido-dao"
+      }
+    },
+    "LINK": {
+      "category": "Governance",
+      "issuer": "Chainlink",
+      "prices": {
+        "coingecko_id": "chainlink"
+      }
+    },
+    "M": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "M0"
+    },
+    "MORPHO": {
+      "category": "Governance",
+      "issuer": "Morpho",
+      "prices": {
+        "coingecko_id": "morpho"
+      }
+    },
+    "mUSD": {
+      "category": "Wrapped",
+      "denomination": "USD",
+      "issuer": "Ondo"
+    },
+    "MXNt": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "MXN",
+      "issuer": "Tether"
+    },
+    "OP": {
+      "category": "Governance",
+      "issuer": "Optimism",
+      "prices": {
+        "coingecko_id": "optimism"
+      }
+    },
+    "OUSG": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Ondo",
+      "prices": {
+        "coingecko_id": "ousg"
+      }
+    },
+    "PENDLE": {
+      "category": "Governance",
+      "issuer": "Pendle",
+      "prices": {
+        "coingecko_id": "pendle"
+      }
+    },
+    "PYUSD": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Paxos",
+      "prices": {
+        "coingecko_id": "paypal-usd"
+      },
+      "protocol": "PayPal"
+    },
+    "pzETH": {
+      "category": "Liquid Restaking",
+      "denomination": "ETH",
+      "issuer": "Renzo",
+      "prices": {
+        "coingecko_id": "renzo-restaked-lst"
+      }
+    },
+    "RESOLV": {
+      "category": "Governance",
+      "issuer": "Resolv",
+      "prices": {
+        "coingecko_id": "resolv"
+      }
+    },
+    "rETH": {
+      "category": "Liquid Staking",
+      "denomination": "ETH",
+      "issuer": "Rocket Pool",
+      "prices": {
+        "coingecko_id": "rocket-pool-eth"
+      }
+    },
+    "rEUL": {
+      "category": "Staked",
+      "issuer": "Euler"
+    },
+    "REZ": {
+      "category": "Governance",
+      "issuer": "Renzo",
+      "prices": {
+        "coingecko_id": "renzo"
+      }
+    },
+    "RLP": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Resolv",
+      "prices": {
+        "coingecko_id": "resolv-rlp"
+      }
+    },
+    "RLUSD": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Ripple",
+      "prices": {
+        "coingecko_id": "ripple-usd"
+      }
+    },
+    "RPL": {
+      "category": "Governance",
+      "issuer": "Rocket Pool",
+      "prices": {
+        "coingecko_id": "rocket-pool"
+      }
+    },
+    "rsENA": {
+      "category": "Yield Bearing",
+      "issuer": "Ethena"
+    },
+    "rsETH": {
+      "category": "Liquid Restaking",
+      "denomination": "ETH",
+      "issuer": "Kelp",
+      "prices": {
+        "coingecko_id": "kelp-dao-restaked-eth"
+      }
+    },
+    "rUSDY": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Ondo"
+    },
+    "SAFO": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Spiko",
+      "prices": {
+        "coingecko_id": "safo"
+      }
+    },
+    "sAVAX": {
+      "category": "Liquid Staking",
+      "denomination": "AVAX",
+      "issuer": "BENQI",
+      "prices": {
+        "coingecko_id": "benqi-liquid-staked-avax"
+      }
+    },
+    "sCHIP": {
+      "category": "Staked",
+      "issuer": "USD.AI",
+      "protocol": "USD.AI"
+    },
+    "SCR": {
+      "category": "Governance",
+      "issuer": "Scroll",
+      "prices": {
+        "coingecko_id": "scroll"
+      }
+    },
+    "scrvUSD": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Curve",
+      "prices": {
+        "coingecko_id": "savings-crvusd"
+      }
+    },
+    "SD": {
+      "category": "Governance",
+      "issuer": "Stader",
+      "prices": {
+        "coingecko_id": "stader"
+      }
+    },
+    "sDAI": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Spark",
+      "prices": {
+        "coingecko_id": "savings-dai"
+      }
+    },
+    "sENA": {
+      "category": "Yield Bearing",
+      "issuer": "Ethena",
+      "prices": {
+        "coingecko_id": "ethena-staked-ena"
+      }
+    },
+    "sEUR0": {
+      "category": "Yield Bearing",
+      "denomination": "EUR",
+      "issuer": "Usual",
+      "prices": {
+        "coingecko_id": "savings-eur0"
+      }
+    },
+    "sFRAX": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Frax"
+    },
+    "sfrxETH": {
+      "category": "Yield Bearing",
+      "denomination": "ETH",
+      "issuer": "Frax",
+      "prices": {
+        "coingecko_id": "staked-frax-ether"
+      }
+    },
+    "sfrxUSD": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Frax",
+      "prices": {
+        "coingecko_id": "staked-frax-usd"
+      }
+    },
+    "SKY": {
+      "category": "Governance",
+      "issuer": "Sky",
+      "prices": {
+        "coingecko_id": "sky"
+      }
+    },
+    "SolvBTC": {
+      "category": "Wrapped",
+      "denomination": "BTC",
+      "issuer": "Solv",
+      "prices": {
+        "coingecko_id": "solv-btc"
+      }
+    },
+    "SolvBTC.AVAX": {
+      "category": "Yield Bearing",
+      "denomination": "BTC",
+      "issuer": "Solv"
+    },
+    "SolvBTC.BERA": {
+      "category": "Yield Bearing",
+      "denomination": "BTC",
+      "issuer": "Solv",
+      "prices": {
+        "coingecko_id": "solv-protocol-solvbtc-bera"
+      }
+    },
+    "SolvBTC.BNB": {
+      "category": "Yield Bearing",
+      "denomination": "BTC",
+      "issuer": "Solv"
+    },
+    "SolvBTC.CORE": {
+      "category": "Yield Bearing",
+      "denomination": "BTC",
+      "issuer": "Solv"
+    },
+    "SolvBTC.DLP": {
+      "category": "Yield Bearing",
+      "denomination": "BTC",
+      "issuer": "Solv"
+    },
+    "SolvBTC.ENA": {
+      "category": "Yield Bearing",
+      "denomination": "BTC",
+      "issuer": "Solv"
+    },
+    "SolvBTC.JUP": {
+      "category": "Yield Bearing",
+      "denomination": "BTC",
+      "issuer": "Solv",
+      "prices": {
+        "coingecko_id": "solv-protocol-solvbtc-jupiter"
+      }
+    },
+    "SolvBTC.TRADING": {
+      "category": "Yield Bearing",
+      "denomination": "BTC",
+      "issuer": "Solv"
+    },
+    "sPENDLE": {
+      "category": "Staked",
+      "issuer": "Pendle",
+      "prices": {
+        "coingecko_id": "spendle"
+      }
+    },
+    "spETH": {
+      "category": "Yield Bearing",
+      "denomination": "ETH",
+      "issuer": "Spark"
+    },
+    "SPK": {
+      "category": "Governance",
+      "issuer": "Spark",
+      "prices": {
+        "coingecko_id": "spark-2"
+      }
+    },
+    "SPKCC": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Spiko",
+      "prices": {
+        "coingecko_id": "spiko-digital-assets-cash-carry-fund"
+      }
+    },
+    "spPYUSD": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Spark"
+    },
+    "spUSDC": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Spark"
+    },
+    "spUSDT": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Spark"
+    },
+    "stETH": {
+      "category": "Liquid Staking",
+      "denomination": "ETH",
+      "issuer": "Lido",
+      "prices": {
+        "coingecko_id": "staked-ether"
+      }
+    },
+    "sthUSD": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Theo"
+    },
+    "stRESOLV": {
+      "category": "Staked",
+      "issuer": "Resolv"
+    },
+    "stS": {
+      "category": "Liquid Staking",
+      "denomination": "S",
+      "issuer": "Beets"
+    },
+    "stSPK": {
+      "category": "Staked",
+      "issuer": "Spark"
+    },
+    "stUSDS": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Sky"
+    },
+    "stUSR": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Resolv"
+    },
+    "sUSD0": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Usual",
+      "prices": {
+        "coingecko_id": "savings-usd0"
+      }
+    },
+    "sUSDai": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "USD.AI",
+      "prices": {
+        "coingecko_id": "susdai"
+      }
+    },
+    "sUSDC": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Spark"
+    },
+    "sUSDe": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Ethena",
+      "prices": {
+        "coingecko_id": "ethena-staked-usde"
+      }
+    },
+    "sUSDS": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Spark",
+      "prices": {
+        "coingecko_id": "susds"
+      }
+    },
+    "SUSHI": {
+      "category": "Governance",
+      "issuer": "Sushi",
+      "prices": {
+        "coingecko_id": "sushi"
+      }
+    },
+    "SYRUP": {
+      "category": "Governance",
+      "issuer": "Maple",
+      "prices": {
+        "coingecko_id": "syrup"
+      }
+    },
+    "syrupUSDC": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Maple",
+      "prices": {
+        "coingecko_id": "syrupusdc"
+      }
+    },
+    "syrupUSDT": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Maple",
+      "prices": {
+        "coingecko_id": "syrupusdt"
+      }
+    },
+    "T": {
+      "category": "Governance",
+      "issuer": "Threshold",
+      "prices": {
+        "coingecko_id": "threshold-network-token"
+      }
+    },
+    "tAVAX": {
+      "category": "Yield Bearing",
+      "denomination": "AVAX",
+      "issuer": "Treehouse",
+      "prices": {
+        "coingecko_id": "treehouse-avax"
+      }
+    },
+    "tBTC": {
+      "category": "Wrapped",
+      "denomination": "BTC",
+      "issuer": "Threshold",
+      "prices": {
+        "coingecko_id": "tbtc"
+      }
+    },
+    "tETH": {
+      "category": "Yield Bearing",
+      "denomination": "ETH",
+      "issuer": "Treehouse"
+    },
+    "thBILL": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Theo",
+      "prices": {
+        "coingecko_id": "theo-short-duration-us-treasury-fund"
+      }
+    },
+    "thUSD": {
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Theo",
+      "prices": {
+        "coingecko_id": "theo-usd"
+      }
+    },
+    "TREE": {
+      "category": "Governance",
+      "issuer": "Treehouse",
+      "prices": {
+        "coingecko_id": "treehouse"
+      }
+    },
+    "TUSD": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "TrueUSD",
+      "prices": {
+        "coingecko_id": "true-usd"
+      }
+    },
+    "UKTBL": {
+      "category": "Yield Bearing",
+      "denomination": "GBP",
+      "issuer": "Spiko",
+      "prices": {
+        "coingecko_id": "spiko-uk-t-bills-money-market-fund"
+      }
+    },
+    "UNI": {
+      "category": "Governance",
+      "issuer": "Uniswap",
+      "prices": {
+        "coingecko_id": "uniswap"
+      }
+    },
+    "USCC": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Superstate",
+      "prices": {
+        "coingecko_id": "superstate-uscc"
+      }
+    },
+    "USD0": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Usual",
+      "prices": {
+        "coingecko_id": "usual-usd"
+      }
+    },
+    "USD0a": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Usual",
+      "prices": {
+        "coingecko_id": "alpha-usd0"
+      }
+    },
+    "USD1": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "World Liberty Financial",
+      "prices": {
+        "coingecko_id": "usd1-wlfi"
+      }
+    },
+    "USDai": {
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "USD.AI",
+      "prices": {
+        "coingecko_id": "usdai"
+      },
+      "protocol": "USD.AI"
+    },
+    "USDC": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Circle",
+      "prices": {
+        "coingecko_id": "usd-coin"
+      }
+    },
+    "USDD": {
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Tron",
+      "prices": {
+        "coingecko_id": "usdd"
+      }
+    },
+    "USDe": {
+      "backing": "Synthetic",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Ethena",
+      "prices": {
+        "coingecko_id": "ethena-usde"
+      }
+    },
+    "USDG": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Paxos",
+      "prices": {
+        "coingecko_id": "global-dollar"
+      }
+    },
+    "USDon": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Ondo",
+      "prices": {
+        "coingecko_id": "ondo-u-s-dollar-token"
+      }
+    },
+    "USDP": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Paxos",
+      "prices": {
+        "coingecko_id": "paxos-standard"
+      }
+    },
+    "USDR": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "StablR",
+      "prices": {
+        "coingecko_id": "stablr-usd"
+      }
+    },
+    "USDS": {
+      "backing": "Crypto",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Sky",
+      "prices": {
+        "coingecko_id": "usds"
+      }
+    },
+    "USDT": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Tether",
+      "prices": {
+        "coingecko_id": "tether"
+      }
+    },
+    "USDtb": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Ethena",
+      "prices": {
+        "coingecko_id": "usdtb"
+      }
+    },
+    "USDY": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Ondo",
+      "prices": {
+        "coingecko_id": "ondo-us-dollar-yield"
+      }
+    },
+    "USDYc": {
+      "category": "Wrapped",
+      "denomination": "USD",
+      "issuer": "Ondo"
+    },
+    "USR": {
+      "backing": "Crypto",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Resolv",
+      "prices": {
+        "coingecko_id": "resolv-usr"
+      }
+    },
+    "USTB": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Superstate",
+      "prices": {
+        "coingecko_id": "superstate-short-duration-us-government-securities-fund-ustb"
+      }
+    },
+    "USTBL": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Spiko",
+      "prices": {
+        "coingecko_id": "spiko-us-t-bills-money-market-fund"
+      }
+    },
+    "USUAL": {
+      "category": "Governance",
+      "issuer": "Usual",
+      "prices": {
+        "coingecko_id": "usual"
+      }
+    },
+    "USUALM": {
+      "backing": "Fiat",
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "Usual"
+    },
+    "USUALUSDC": {
+      "category": "Wrapped",
+      "denomination": "USD",
+      "issuer": "Usual"
+    },
+    "USUALUSDTB": {
+      "category": "Wrapped",
+      "denomination": "USD",
+      "issuer": "Usual"
+    },
+    "USUALX": {
+      "category": "Staked",
+      "issuer": "Usual",
+      "prices": {
+        "coingecko_id": "usualx"
+      }
+    },
+    "USYC": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "Circle",
+      "manager": "Hashnote",
+      "prices": {
+        "coingecko_id": "hashnote-usyc"
+      }
+    },
+    "veCRV": {
+      "category": "Governance",
+      "issuer": "Curve"
+    },
+    "WAVAX": {
+      "category": "Wrapped",
+      "denomination": "AVAX",
+      "issuer": "Avalanche",
+      "prices": {
+        "coingecko_id": "avalanche-2"
+      }
+    },
+    "WBNB": {
+      "category": "Wrapped",
+      "denomination": "BNB",
+      "issuer": "Binance",
+      "prices": {
+        "coingecko_id": "binancecoin"
+      }
+    },
+    "WBTC": {
+      "category": "Wrapped",
+      "denomination": "BTC",
+      "issuer": "BitGo",
+      "prices": {
+        "coingecko_id": "wrapped-bitcoin"
+      }
+    },
+    "weETH": {
+      "category": "Liquid Staking",
+      "denomination": "ETH",
+      "issuer": "EtherFi",
+      "prices": {
+        "coingecko_id": "wrapped-eeth"
+      }
+    },
+    "WETH": {
+      "category": "Wrapped",
+      "denomination": "ETH",
+      "issuer": "Ethereum",
+      "prices": {
+        "coingecko_id": "weth"
+      }
+    },
+    "WFRAX": {
+      "category": "Wrapped",
+      "denomination": "USD",
+      "issuer": "Frax",
+      "prices": {
+        "coingecko_id": "wrapped-frax"
+      }
+    },
+    "WLFI": {
+      "category": "Governance",
+      "issuer": "World Liberty Financial",
+      "prices": {
+        "coingecko_id": "world-liberty-financial"
+      }
+    },
+    "wM": {
+      "category": "Wrapped",
+      "denomination": "USD",
+      "issuer": "M0",
+      "prices": {
+        "coingecko_id": "wrappedm-by-m0"
+      }
+    },
+    "WMNT": {
+      "category": "Wrapped",
+      "denomination": "MNT",
+      "issuer": "Mantle",
+      "prices": {
+        "coingecko_id": "mantle"
+      }
+    },
+    "WPOL": {
+      "category": "Wrapped",
+      "denomination": "POL",
+      "issuer": "Polygon",
+      "prices": {
+        "coingecko_id": "polygon-ecosystem-token"
+      }
+    },
+    "wrsETH": {
+      "category": "Wrapped",
+      "denomination": "ETH",
+      "issuer": "Kelp",
+      "prices": {
+        "coingecko_id": "wrapped-rseth"
+      }
+    },
+    "wS": {
+      "category": "Wrapped",
+      "denomination": "S",
+      "issuer": "Sonic",
+      "prices": {
+        "coingecko_id": "wrapped-sonic"
+      }
+    },
+    "wstETH": {
+      "category": "Wrapped",
+      "denomination": "ETH",
+      "issuer": "Lido",
+      "prices": {
+        "coingecko_id": "wrapped-steth"
+      }
+    },
+    "wstUSR": {
+      "category": "Wrapped",
+      "denomination": "USD",
+      "issuer": "Resolv",
+      "prices": {
+        "coingecko_id": "resolv-wstusr"
+      }
+    },
+    "WXPL": {
+      "category": "Wrapped",
+      "denomination": "XPL",
+      "issuer": "Plasma",
+      "prices": {
+        "coingecko_id": "wrapped-xpl"
+      }
+    },
+    "XAUt": {
+      "backing": "Commodity",
+      "category": "Commodity",
+      "denomination": "XAU",
+      "issuer": "Tether",
+      "prices": {
+        "coingecko_id": "tether-gold"
+      }
+    },
+    "xSolvBTC": {
+      "category": "Yield Bearing",
+      "denomination": "BTC",
+      "issuer": "Solv",
+      "prices": {
+        "coingecko_id": "solv-protocol-solvbtc-bbn"
+      }
+    },
+    "ZRO": {
+      "category": "Governance",
+      "issuer": "LayerZero",
+      "prices": {
+        "coingecko_id": "layerzero"
+      }
+    }
+  }
+}

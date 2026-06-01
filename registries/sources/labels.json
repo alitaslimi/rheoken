@@ -1,0 +1,644 @@
+{
+  "labels": {
+    "arbitrum": {
+      "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef": {
+        "name": "USDai",
+        "protocol": "USD.AI"
+      },
+      "0x0b2b2b2076d95dda7817e785989fe353fe955ef9": {
+        "name": "sUSDai",
+        "protocol": "USD.AI"
+      },
+      "0x0d2d2d20962f2468566f4d1a4ddeb482915c4d4a": {
+        "name": "sCHIP",
+        "protocol": "USD.AI"
+      },
+      "0x10e6593cdda8c58a1d0f14c5164b376352a55f2f": {
+        "name": "Arbitrum L2 Governance Relay",
+        "protocol": "Arbitrum"
+      },
+      "0x15533b77981cda0f85c4f9a485237df4285d6844": {
+        "name": "Arbitrum Foundation Vesting Budget",
+        "protocol": "Arbitrum"
+      },
+      "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7": {
+        "name": "Hyperliquid Deposit Bridge 2",
+        "protocol": "Hyperliquid"
+      },
+      "0x2b05f8e1cacc6974fd79a673a341fe1f58d27266": {
+        "name": "Spark PSM 3",
+        "protocol": "Spark"
+      },
+      "0x3349e443068f76666789c4f76f00d9c4f38a4dde": {
+        "name": "M0 Spoke Vault",
+        "protocol": "M0"
+      },
+      "0x437cc33344a0b27a429f795ff6b469c72698b291": {
+        "name": "wM",
+        "protocol": "M0"
+      },
+      "0x9ddfd49ac4689cf894203794d792dcb38e4b1a9e": {
+        "name": "USD.AI Base Yield Escrow",
+        "protocol": "USD.AI"
+      },
+      "0xcad7828a19b363a2b44717afb1786b5196974d8e": {
+        "name": "ARB Gateway",
+        "protocol": "Arbitrum"
+      },
+      "0xf3fc178157fb3c87548baa86f9d24ba38e649b58": {
+        "name": "Arbitrum DAO Treasury",
+        "protocol": "Arbitrum"
+      }
+    },
+    "avalanche": {
+      "0x28b3a8fb53b741a8fd78c0fb9a6b2393d896a43d": {
+        "name": "spUSDC",
+        "protocol": "Spark"
+      },
+      "0x3fc60aac1d843e4e181c7ab727a4027cb1ac99ed": {
+        "name": "Treehouse tAVAX Vault",
+        "protocol": "Treehouse"
+      }
+    },
+    "base": {
+      "0x1601843c5e9bc251a3272907010afa41fa18347e": {
+        "name": "Spark PSM 3",
+        "protocol": "Spark"
+      },
+      "0x3349e443068f76666789c4f76f00d9c4f38a4dde": {
+        "name": "M0 Spoke Vault",
+        "protocol": "M0"
+      },
+      "0x437cc33344a0b27a429f795ff6b469c72698b291": {
+        "name": "wM",
+        "protocol": "M0"
+      },
+      "0x5401b8620e5fb570064ca9114fd1e135fd77d57c": {
+        "name": "LBTCv",
+        "protocol": "Lombard"
+      },
+      "0xeb018363f0a9af8f91f06fee6613a751b2a33fe5": {
+        "name": "Aerodrome Minter",
+        "protocol": "Aerodrome"
+      },
+      "0x227f65131a261548b057215bb1d5ab2997964c7d": {
+        "name": "Aerodrome Rewards Distributor",
+        "protocol": "Aerodrome"
+      },
+      "0x16613524e02ad97edfef371bc883f2f5d6c480a5": {
+        "name": "Aerodrome Voter",
+        "protocol": "Aerodrome"
+      },
+      "0xebf418fe2512e7e6bd9b87a8f0f294acdc67e6b4": {
+        "name": "Aerodrome Voting Escrow",
+        "protocol": "Aerodrome"
+      }
+    },
+    "bsc": {
+      "0x3349e443068f76666789c4f76f00d9c4f38a4dde": {
+        "name": "M0 Spoke Vault",
+        "protocol": "M0"
+      },
+      "0x437cc33344a0b27a429f795ff6b469c72698b291": {
+        "name": "wM",
+        "protocol": "M0"
+      },
+      "0x5401b8620e5fb570064ca9114fd1e135fd77d57c": {
+        "name": "LBTCv",
+        "protocol": "Lombard"
+      }
+    },
+    "ethereum": {
+      "0x036676389e48133b63a802f8635ad39e752d375d": {
+        "name": "Kelp DAO LRT Deposit Pool",
+        "protocol": "Kelp"
+      },
+      "0x06179f7c1be40863405f374e7f5f8806c728660a": {
+        "name": "Gho CCIP Token Pool",
+        "protocol": "Aave"
+      },
+      "0x0f25c1dc2a9922304f2eac71dca9b07e310e8e5a": {
+        "name": "Lido Arbitrum Bridge",
+        "protocol": "Lido"
+      },
+      "0x0184739c32edc3471d3e4860c8e39a5f3ff85a45": {
+        "name": "Threshold Rebate Staking",
+        "protocol": "Threshold"
+      },
+      "0x03e342731c08fddc34cfb43e91cb3a7e424ee0f6": {
+        "name": "Threshold tBTC Lock Release Token Pool Upgradeable",
+        "protocol": "Threshold"
+      },
+      "0x0555e30da8f98308edb960aa94c0db47230d2b9c": {
+        "name": "WBTC OFT Adapter",
+        "protocol": "BitGo"
+      },
+      "0x1196f688c585d3e5c895ef8954ffb0dcdafc566a": {
+        "name": "Sky Unichain Escrow",
+        "protocol": "Sky"
+      },
+      "0x1601843c5e9bc251a3272907010afa41fa18347e": {
+        "name": "Spark Liquidity Layer",
+        "protocol": "Spark"
+      },
+      "0x1736011d3e075351b319dbc1da28dac68ea830a6": {
+        "name": "Renzo Staking Contract",
+        "protocol": "Renzo"
+      },
+      "0x1a9c8182c09f50c8318d769245bea52c32be35bc": {
+        "name": "Uniswap V2 UNI Timelock",
+        "protocol": "Uniswap"
+      },
+      "0x1b7a4c3797236a1c37f8741c0be35c2c72736fff": {
+        "name": "EtherFi Restaker",
+        "protocol": "EtherFi"
+      },
+      "0x1de458031bfbe5689ded5a8b9ed57e1e79eab2a4": {
+        "name": "Stader Labs Permissionless Socializing Pool",
+        "protocol": "Stader Labs"
+      },
+      "0x1e1d42781fc170ef9da004fb735f56f0276d01b8": {
+        "name": "Sky OFT Adapter",
+        "protocol": "Sky"
+      },
+      "0x2111a49ebb717959059693a3698872a0ae9866b9": {
+        "name": "Threshold StarkGate Bridge",
+        "protocol": "Threshold"
+      },
+      "0x2a1d74de3027cce18d31011518c571130a4cd513": {
+        "name": "KERNEL OFT Adapter",
+        "protocol": "Kernel DAO"
+      },
+      "0x2d001d79e5af5f65a939781fe228b267a8ed468b": {
+        "name": "Lido Mantle Bridge",
+        "protocol": "Lido"
+      },
+      "0x2f543a7c9cc80cc2427c892b96263098d23ee55a": {
+        "name": "Lido Soneium Bridge",
+        "protocol": "Lido"
+      },
+      "0x28b3a8fb53b741a8fd78c0fb9a6b2393d896a43d": {
+        "name": "spUSDC",
+        "protocol": "Spark"
+      },
+      "0x356b8d89c1e1239cbbb9de4815c39a1474d5ba7d": {
+        "name": "syrupUSDT",
+        "protocol": "Maple"
+      },
+      "0x36f586a30502ae3afb555b8aa4dcc05d233c2ece": {
+        "name": "M0 Portal Life",
+        "protocol": "M0"
+      },
+      "0x3bdc69c4e5e13e52a65f5583c23efb9636b469d6": {
+        "name": "Rocket Pool Vault",
+        "protocol": "Rocket Pool"
+      },
+      "0x3d320286e014c3e1ce99af6d6b00f0c1d63e3000": {
+        "name": "EtherFi Membership Manager",
+        "protocol": "EtherFi"
+      },
+      "0x41527b2d03844db6b0945f25702cb958b6d55989": {
+        "name": "Lido ZKsync Bridge",
+        "protocol": "Lido"
+      },
+      "0x437cc33344a0b27a429f795ff6b469c72698b291": {
+        "name": "wM",
+        "protocol": "M0"
+      },
+      "0x467194771dae2967aef3ecbedd3bf9a310c76c65": {
+        "name": "Sky Optimism Escrow",
+        "protocol": "Sky"
+      },
+      "0x4b3edb22952fb4a70140e39fb1add05a6b49622b": {
+        "name": "Lido Early Stakers Airdrop",
+        "protocol": "Lido"
+      },
+      "0x50d3d6fd7518682155e3c1b65fdd50e1b35649d9": {
+        "name": "MORPHO OFT Adapter",
+        "protocol": "Morpho"
+      },
+      "0x5181d5d56af4f823b96fe05f062d7a09761a5a53": {
+        "name": "Lido Gas Supply Committee",
+        "protocol": "Lido"
+      },
+      "0x5401b8620e5fb570064ca9114fd1e135fd77d57c": {
+        "name": "LBTCv",
+        "protocol": "Lombard"
+      },
+      "0x551d155760ae96050439ad24ae98a96c765d761b": {
+        "name": "Treehouse tETH Vault",
+        "protocol": "Treehouse"
+      },
+      "0x5754284f345afc66a98fbb0a0afe71e0f007b949": {
+        "name": "Tether Treasury",
+        "protocol": "Tether"
+      },
+      "0x5efc9d10e42fb517456f4ac41eb5e2ebe42c8918": {
+        "name": "Renzo Withdrawal Contract",
+        "protocol": "Renzo"
+      },
+      "0x62de59c08eb5dae4b7e6f7a8cad3006d6965ec16": {
+        "name": "Kelp DAO LRT Withdrawal Manager",
+        "protocol": "Kelp"
+      },
+      "0x6625c6332c9f91f2d27c304e729b86db87a3f504": {
+        "name": "Lido Scroll Bridge",
+        "protocol": "Lido"
+      },
+      "0x6ac55e733dff03a54251670df0667774e8f7d28f": {
+        "name": "LayerZero Foundation ZRO Buybacks",
+        "protocol": "LayerZero"
+      },
+      "0x755610f5be536ad7afbaa7c10f3e938ea3aa1877": {
+        "name": "Lido Unichain Bridge",
+        "protocol": "Lido"
+      },
+      "0x74b4f6a2e579d730aacb9dd23cfbbaeb95029583": {
+        "name": "WLFI Vester",
+        "protocol": "World Liberty Financial"
+      },
+      "0x76943c0d61395d8f2edf9060e1533529cae05de6": {
+        "name": "Lido Optimism Bridge",
+        "protocol": "Lido"
+      },
+      "0x7af4730cc8ebad1a050dcad5c03c33d2793ee91f": {
+        "name": "Stader Labs SD Collateral",
+        "protocol": "Stader Labs"
+      },
+      "0x7d5706f6ef3f89b3951e23e557cdfbc3239d4e2c": {
+        "name": "EtherFi Withdraw Request NFT",
+        "protocol": "EtherFi"
+      },
+      "0x7f311a4d48377030bd810395f4ccfc03bdbe9ef3": {
+        "name": "Sky Base Escrow",
+        "protocol": "Sky"
+      },
+      "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0": {
+        "name": "wstETH",
+        "protocol": "Lido"
+      },
+      "0x80128dbb9f07b93dde62a6daeadb69ed14a7d354": {
+        "name": "spPYUSD",
+        "protocol": "Spark"
+      },
+      "0x80ac24aa929eaf5013f6436cda2a7ba190f5cc0b": {
+        "name": "syrupUSDC",
+        "protocol": "Maple"
+      },
+      "0x8113f001ea456759264317007220cbc939ca8435": {
+        "name": "tETH CCIP LockReleaseTokenPool",
+        "protocol": "Treehouse"
+      },
+      "0x83ae82bd4054e815fb7b189c39d9ce670369ea16": {
+        "name": "M0 Noble Portal",
+        "protocol": "M0"
+      },
+      "0x85d456b2dff1fd8245387c0bfb64dfb700e98ef3": {
+        "name": "rsETH OFT Adapter",
+        "protocol": "Kelp"
+      },
+      "0x87f005317692d05baa4193ab0c961c69e175f45f": {
+        "name": "Threshold Governor Bravo Timelock Controller",
+        "protocol": "Threshold"
+      },
+      "0x8b3f33234abd88493c0cd28de33d583b70bede35": {
+        "name": "Lido DAO Insurance Fund",
+        "protocol": "Lido"
+      },
+      "0x912c7271a6a3622dfb8b218eb46a6122ab046c79": {
+        "name": "Lido Zircuit Bridge",
+        "protocol": "Lido"
+      },
+      "0x9348af23b01f2b517afe8f29b3183d2bb7d69fcf": {
+        "name": "Lido Lisk Bridge",
+        "protocol": "Lido"
+      },
+      "0x99cd4ec3f88a45940936f469e4bb72a2a701eeb9": {
+        "name": "stUSDS",
+        "protocol": "Sky"
+      },
+      "0x9aa9aa0530a6af70ee7bc47cf1240100f514b065": {
+        "name": "thUSD OFT Adapter",
+        "protocol": "Theo"
+      },
+      "0x9bb6d4b928645eda8f9c019495695ba98969eff1": {
+        "name": "Kelp DAO EIGEN Distributor",
+        "protocol": "Kelp"
+      },
+      "0x9d03bb2092270648d7480049d0e58d2fcf0e5123": {
+        "name": "MORPHO wrapper",
+        "protocol": "Morpho"
+      },
+      "0x9de443adc5a411e83f1878ef24c3f52c61571e72": {
+        "name": "Lido Base Bridge",
+        "protocol": "Lido"
+      },
+      "0x9d39a5de30e57443bff2a8307a4256c8797a3497": {
+        "name": "Ethena Staked USDe",
+        "protocol": "Ethena"
+      },
+      "0x9f0491b32dbce587c50c4c43ab303b06478193a7": {
+        "name": "Stader Labs User Withdraw Manager",
+        "protocol": "Stader Labs"
+      },
+      "0xa10c7ce4b876998858b1a9e12b10092229539400": {
+        "name": "Sky Arbitrum Escrow",
+        "protocol": "Sky"
+      },
+      "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd": {
+        "name": "sUSDS",
+        "protocol": "Spark"
+      },
+      "0xa1ea1ba18e88c381c724a75f23a130420c403f9a": {
+        "name": "MKR To SKY Converter",
+        "protocol": "Sky"
+      },
+      "0xa808bc9775cb41c52c7842f8b50427fe7a770326": {
+        "name": "sthUSD",
+        "protocol": "Theo"
+      },
+      "0xaf37c1167910ebc994e266949387d2c7c326b879": {
+        "name": "rUSDY",
+        "protocol": "Ondo"
+      },
+      "0xb948a93827d68a82f6513ad178964da487fe2bd9": {
+        "name": "Lido BSC Bridge",
+        "protocol": "Lido"
+      },
+      "0xc64cd976f81090a4b2320b42309ffe27ff9f690d": {
+        "name": "KERNEL Deposit Pool",
+        "protocol": "Kernel DAO"
+      },
+      "0xc66830e2667bc740c0bed9a71f18b14b8c8184ba": {
+        "name": "Kelp DAO Unstaking Vault",
+        "protocol": "Kelp"
+      },
+      "0xc6132faf04627c8d05d6e759fabb331ef2d8f8fd": {
+        "name": "stSPK",
+        "protocol": "Spark"
+      },
+      "0xc8140da31e6bca19b287cc35531c2212763c2059": {
+        "name": "Renzo Protocol Bridge",
+        "protocol": "Renzo"
+      },
+      "0xc785d05961b3c537cac11f1d496876a255f6d650": {
+        "name": "WLFI CCIP Lock Release Token Pool",
+        "protocol": "World Liberty Financial"
+      },
+      "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee": {
+        "name": "weETH",
+        "protocol": "EtherFi"
+      },
+      "0xce01c90de7fd1bcfa39e237fe6d8d9f569e8a6a3": {
+        "name": "SKY Lockstake Engine",
+        "protocol": "Sky"
+      },
+      "0xd0dea0a3bd8e4d55170943129c025d3fe0493f2a": {
+        "name": "Lido Mode Bridge",
+        "protocol": "Lido"
+      },
+      "0xd7298f620b0f752cf41bd818a16c756d9dcaa34f": {
+        "name": "M0 Distribution Vault",
+        "protocol": "M0"
+      },
+      "0xd925c84b55e4e44a53749ff5f2a5a13f63d128fd": {
+        "name": "M0 Hub Portal",
+        "protocol": "M0"
+      },
+      "0xe2e7a17dff93280dec073c995595155283e3c372": {
+        "name": "spUSDT",
+        "protocol": "Spark"
+      },
+      "0xec417ccb6dd26868cca993a92f37217b1d4b3c2f": {
+        "name": "Theo Reserves",
+        "protocol": "Theo"
+      },
+      "0xecf3376512edaca4fbb63d2c67d12a0397d24121": {
+        "name": "Lido Swellchain Bridge",
+        "protocol": "Lido"
+      },
+      "0xfdd22ce6d1f66bc0ec89b20bf16ccb6670f55a5a": {
+        "name": "thBILL OFT Adapter",
+        "protocol": "Theo"
+      },
+      "0xfe6eb3b609a7c8352a241f7f3a21cea4e9209b8f": {
+        "name": "spETH",
+        "protocol": "Spark"
+      },
+      "0xfe4bce4b3949c35fb17691d8b03c3cadbe2e5e23": {
+        "name": "stRESOLV",
+        "protocol": "Resolv"
+      },
+      "0x06b964d96f5dcf7eae9d7c559b09edce244d4b8e": {
+        "name": "USUALX",
+        "protocol": "Usual"
+      },
+      "0xa55af35e5f4bb6a82e0a290570bce38ce2757d37": {
+        "name": "USUALSP",
+        "protocol": "Usual"
+      },
+      "0x81ad394c0fa87e99ca46e1aca093bee020f203f4": {
+        "name": "Usual Yield Treasury",
+        "protocol": "Usual"
+      },
+      "0x72a0203b731edece2ddaa506a048c0378c44366a": {
+        "name": "CCIP Lock Release Token Pool",
+        "protocol": "Usual"
+      },
+      "0x8cc230fc8d736bf3fbe911a17c6c59d522f85ff4": {
+        "name": "USUAL L1 OFT Adapter",
+        "protocol": "Usual"
+      },
+      "0x85b6f9bddb10c6b320d07416a250f984f0f0e9ed": {
+        "name": "UsualX Lockup",
+        "protocol": "Usual"
+      },
+      "0xdd82875f0840aad58a455a70b88eed9f59cec7c7": {
+        "name": "Usual Treasury",
+        "protocol": "Usual"
+      },
+      "0xd861be82dee3223cfbed160791f6550b0704d406": {
+        "name": "sUSD0",
+        "protocol": "Usual"
+      },
+      "0x35d8949372d46b7a3d5a56006ae77b215fc69bc0": {
+        "name": "bUSD0",
+        "protocol": "Usual"
+      },
+      "0xb3911c121909736a9c1a76e5cf078d19a3e7d233": {
+        "name": "USD0 Rewards Claim",
+        "protocol": "Usual"
+      },
+      "0xc3d39b77032114c8884276dae0f02cdf75162782": {
+        "name": "CCIP Lock Release Token Pool",
+        "protocol": "Usual"
+      },
+      "0xe14c486b93c3b62f76f88cf8fe4b36fb672f3b26": {
+        "name": "USD0 L1 OFT Adapter",
+        "protocol": "Usual"
+      },
+      "0xf3d913de4b23ddb9cfdfaf955bac5634cbae95f4": {
+        "name": "Usual Longterm Treasury",
+        "protocol": "Usual"
+      },
+      "0x35f43c6604b0de814abaa2d94c878bd1f5165478": {
+        "name": "sEUR0",
+        "protocol": "Usual"
+      },
+      "0x11d75bc93ae69350231d8ff0f5832a697678183e": {
+        "name": "Usual EUR0 Collateral Treasury",
+        "protocol": "Usual"
+      },
+      "0xbfbe929807cadbc3fd5191800dfb10454ff5c792": {
+        "name": "Usual USD0a Collateral Treasury",
+        "protocol": "Usual"
+      },
+      "0xb672b3976baa3952bfb2ece8eefb784f8dab1424": {
+        "name": "USUALUSDC",
+        "protocol": "Usual"
+      },
+      "0x4c21b7577c8fe8b0b0669165ee7c8f67fa1454cf": {
+        "name": "USTB RedemptionIdle Proxy",
+        "protocol": "Superstate"
+      },
+      "0x58073531a2809744d1bf311d30fd76b27d662abb": {
+        "name": "USUALUSDTB",
+        "protocol": "Usual"
+      },
+      "0x67ec31a47a4126a66c7bb2fe017308cf5832a4db": {
+        "name": "Usual usUSDS++",
+        "protocol": "Usual"
+      },
+      "0xbd6ad96f51e8d732811587468d0e2f9efa55f605": {
+        "name": "Spiko MultiATM",
+        "protocol": "Spiko"
+      },
+      "0x999999999991e178d52cd95afd4b00d066664144": {
+        "name": "sPENDLE",
+        "protocol": "Pendle"
+      },
+      "0xd7e67c97cc48253b28737ec3981b0a7ad6d7e0e4": {
+        "name": "PENDLE OFT Adapter",
+        "protocol": "Pendle"
+      },
+      "0xc7c5afdb61e08be3e2fb09098412b5706eb5c550": {
+        "name": "Euler Treasury",
+        "protocol": "Euler"
+      },
+      "0x25aa4a183800ecab962d84ccc7ada58d4e126992": {
+        "name": "Euler Multisig",
+        "protocol": "Euler"
+      }
+    },
+    "hyperevm": {
+      "0x3349e443068f76666789c4f76f00d9c4f38a4dde": {
+        "name": "M0 Spoke Vault",
+        "protocol": "M0"
+      },
+      "0x437cc33344a0b27a429f795ff6b469c72698b291": {
+        "name": "wM",
+        "protocol": "M0"
+      }
+    },
+    "linea": {
+      "0x3349e443068f76666789c4f76f00d9c4f38a4dde": {
+        "name": "M0 Spoke Vault",
+        "protocol": "M0"
+      },
+      "0x636b22bc471c955a8db60f28d4795066a8201fa3": {
+        "name": "UNI Contract",
+        "protocol": "Uniswap"
+      },
+      "0x437cc33344a0b27a429f795ff6b469c72698b291": {
+        "name": "wM",
+        "protocol": "M0"
+      }
+    },
+    "mantra": {
+      "0x3349e443068f76666789c4f76f00d9c4f38a4dde": {
+        "name": "M0 Spoke Vault",
+        "protocol": "M0"
+      },
+      "0x437cc33344a0b27a429f795ff6b469c72698b291": {
+        "name": "wM",
+        "protocol": "M0"
+      }
+    },
+    "mantle": {
+      "0xab575258d37eaa5c8956efabe71f4ee8f6397cf3": {
+        "name": "mUSD",
+        "protocol": "Ondo"
+      }
+    },
+    "optimism": {
+      "0x3349e443068f76666789c4f76f00d9c4f38a4dde": {
+        "name": "M0 Spoke Vault",
+        "protocol": "M0"
+      },
+      "0x6fd9d7ad17242c41f7131d257212c54a0e816691": {
+        "name": "UNI Contract",
+        "protocol": "Uniswap"
+      },
+      "0x437cc33344a0b27a429f795ff6b469c72698b291": {
+        "name": "wM",
+        "protocol": "M0"
+      },
+      "0x76a50b8c7349ccddb7578c6627e79b5d99d24138": {
+        "name": "stETH",
+        "protocol": "Lido"
+      }
+    },
+    "plasma": {
+      "0x3349e443068f76666789c4f76f00d9c4f38a4dde": {
+        "name": "M0 Spoke Vault",
+        "protocol": "M0"
+      },
+      "0x437cc33344a0b27a429f795ff6b469c72698b291": {
+        "name": "wM",
+        "protocol": "M0"
+      }
+    },
+    "plume": {
+      "0x3349e443068f76666789c4f76f00d9c4f38a4dde": {
+        "name": "M0 Spoke Vault",
+        "protocol": "M0"
+      },
+      "0x437cc33344a0b27a429f795ff6b469c72698b291": {
+        "name": "wM",
+        "protocol": "M0"
+      }
+    },
+    "polygon": {
+      "0xb33eaad8d922b1083446dc23f610c2567fb5180f": {
+        "name": "UNI Contract",
+        "protocol": "Uniswap"
+      }
+    },
+    "sei": {
+      "0x3349e443068f76666789c4f76f00d9c4f38a4dde": {
+        "name": "M0 Spoke Vault",
+        "protocol": "M0"
+      },
+      "0x437cc33344a0b27a429f795ff6b469c72698b291": {
+        "name": "wM",
+        "protocol": "M0"
+      }
+    },
+    "soneium": {
+      "0x3349e443068f76666789c4f76f00d9c4f38a4dde": {
+        "name": "M0 Spoke Vault",
+        "protocol": "M0"
+      },
+      "0x437cc33344a0b27a429f795ff6b469c72698b291": {
+        "name": "wM",
+        "protocol": "M0"
+      }
+    },
+    "unichain": {
+      "0x81f2508aac59757ef7425ddc9717ab5c2aa0a84f": {
+        "name": "stETH",
+        "protocol": "Lido"
+      }
+    }
+  }
+}
