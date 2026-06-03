@@ -13,6 +13,14 @@
         "name": "sCHIP",
         "protocol": "USD.AI"
       },
+      "0x0d710cc05f34d2ead9fba3c78d53d76a0623c9f8": {
+        "name": "Deposit Timelock",
+        "protocol": "USD.AI"
+      },
+      "0xffc1002994b1e9a744036d0abdaefe8356b7cf4e": {
+        "name": "CHIP OFT Adapter",
+        "protocol": "USD.AI"
+      },
       "0x10e6593cdda8c58a1d0f14c5164b376352a55f2f": {
         "name": "Arbitrum L2 Governance Relay",
         "protocol": "Arbitrum"

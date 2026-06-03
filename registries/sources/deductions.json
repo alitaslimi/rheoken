@@ -33,6 +33,10 @@
         {
           "address": "0x0d2d2d20962f2468566f4d1a4ddeb482915c4d4a",
           "type": "locked"
+        },
+        {
+          "address": "0xffc1002994b1e9a744036d0abdaefe8356b7cf4e",
+          "type": "locked"
         }
       ]
     },
@@ -506,6 +510,10 @@
       "arbitrum": [
         {
           "address": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
+          "type": "locked"
+        },
+        {
+          "address": "0x0d710cc05f34d2ead9fba3c78d53d76a0623c9f8",
           "type": "locked"
         },
         {
