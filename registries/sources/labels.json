@@ -114,6 +114,10 @@
       "0x5401b8620e5fb570064ca9114fd1e135fd77d57c": {
         "name": "LBTCv",
         "protocol": "Lombard"
+      },
+      "0x969a9a0bbe30af7ea03dcdc5ca7e781061f6e0a2": {
+        "name": "BSC Bridge Reserve",
+        "protocol": "Chainlink"
       }
     },
     "ethereum": {
@@ -617,6 +621,10 @@
       }
     },
     "polygon": {
+      "0xa9a6593b016afb18ca88e484ebc31838549ec73a": {
+        "name": "Polygon Bridge Reserve",
+        "protocol": "Chainlink"
+      },
       "0xb33eaad8d922b1083446dc23f610c2567fb5180f": {
         "name": "UNI Contract",
         "protocol": "Uniswap"

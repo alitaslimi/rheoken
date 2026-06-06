@@ -152,6 +152,20 @@
         }
       ]
     },
+    "LINK": {
+      "bsc": [
+        {
+          "address": "0x969a9a0bbe30af7ea03dcdc5ca7e781061f6e0a2",
+          "type": "excluded"
+        }
+      ],
+      "polygon": [
+        {
+          "address": "0xa9a6593b016afb18ca88e484ebc31838549ec73a",
+          "type": "excluded"
+        }
+      ]
+    },
     "LBTC": {
       "base": [
         {
