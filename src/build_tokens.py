@@ -177,10 +177,9 @@ def generated_deduction_labels(
         protocol_name = record["protocol"]
         version = record.get("version", protocol_version(protocol))
         market = record["market"]
-        asset_symbol = strip_aave_prefix(record["symbol"])
         return {
             "market": market,
-            "name": f"{protocol_name} {version} {market} {asset_symbol}",
+            "name": record["name"],
             "protocol": protocol_name,
             "symbol": record["symbol"],
             "version": version,
@@ -208,12 +207,6 @@ def protocol_version(protocol: str) -> str:
         "uniswap_v2": "V2",
         "uniswap_v3": "V3",
     }[protocol]
-
-
-def strip_aave_prefix(symbol: str) -> str:
-    if symbol.startswith("a") and len(symbol) > 1:
-        return symbol[1:]
-    return symbol
 
 
 def build_generated_tokens(

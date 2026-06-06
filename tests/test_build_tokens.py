@@ -67,7 +67,7 @@ def test_build_tokens_merges_contracts_metadata_taxonomies_and_deduction_labels(
                     "address": "0x724dc807b04555b71ed48a6896b6f41593b8c637",
                     "decimals": 6,
                     "market": "Arbitrum",
-                    "name": "Aave V3 Arbitrum USDC",
+                    "name": "Aave V3 Arbitrum USDC.e",
                     "onchain_name": "Aave Arbitrum USDC",
                     "onchain_symbol": "aArbUSDC",
                     "protocol": "Aave",
@@ -122,7 +122,7 @@ def test_build_tokens_merges_contracts_metadata_taxonomies_and_deduction_labels(
                             "address": "0x724dc807b04555b71ed48a6896b6f41593b8c637",
                             "labels": {
                                 "market": "Arbitrum",
-                                "name": "Aave V3 Arbitrum USDC",
+                                "name": "Aave V3 Arbitrum USDC.e",
                                 "protocol": "Aave",
                                 "symbol": "aUSDC",
                                 "version": "V3",
