@@ -436,6 +436,11 @@
       "denomination": "ETH",
       "issuer": "Kelp"
     },
+    "JANE": {
+      "category": "Governance",
+      "issuer": "3Jane",
+      "protocol": "3Jane"
+    },
     "KERNEL": {
       "category": "Governance",
       "issuer": "Kernel",
@@ -843,6 +848,12 @@
         "coingecko_id": "susdai"
       }
     },
+    "sUSD3": {
+      "category": "Yield Bearing",
+      "denomination": "USD",
+      "issuer": "3Jane",
+      "protocol": "3Jane"
+    },
     "sUSDC": {
       "category": "Yield Bearing",
       "denomination": "USD",
@@ -1002,6 +1013,12 @@
       "prices": {
         "coingecko_id": "usd1-wlfi"
       }
+    },
+    "USD3": {
+      "category": "Stablecoin",
+      "denomination": "USD",
+      "issuer": "3Jane",
+      "protocol": "3Jane"
     },
     "USDai": {
       "category": "Stablecoin",

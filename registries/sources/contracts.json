@@ -312,6 +312,9 @@
     "hgETH": {
       "ethereum": "0xc824a08db624942c5e5f330d56530cd1598859fd"
     },
+    "JANE": {
+      "ethereum": "0x333333330522f64ee8d0b3039c460b41670e3404"
+    },
     "KERNEL": {
       "ethereum": "0x3f80b1c54ae920be41a77f8b902259d48cf24ccf"
     },
@@ -672,6 +675,9 @@
       "ethereum": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
       "plasma": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9"
     },
+    "sUSD3": {
+      "ethereum": "0xf689555121e529ff0463e191f9bd9d1e496164a7"
+    },
     "sUSDe": {
       "arbitrum": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
       "base": "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2",
@@ -820,6 +826,9 @@
     },
     "USD0a": {
       "ethereum": "0x2e7fc02be94bc7f0cd69dcab572f64bcc173cd81"
+    },
+    "USD3": {
+      "ethereum": "0x056b269eb1f75477a8666ae8c7fe01b64dd55ecc"
     },
     "EUR0": {
       "ethereum": "0x3c89cd1884e7bef73ca3ef08d2ef6ec338fd8e49"

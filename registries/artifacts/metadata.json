@@ -978,6 +978,15 @@
         }
       }
     },
+    "JANE": {
+      "ethereum": {
+        "0x333333330522f64ee8d0b3039c460b41670e3404": {
+          "decimals": 18,
+          "name": "Jane",
+          "symbol": "JANE"
+        }
+      }
+    },
     "KERNEL": {
       "ethereum": {
         "0x3f80b1c54ae920be41a77f8b902259d48cf24ccf": {
@@ -2406,6 +2415,15 @@
           "decimals": 18,
           "name": "World Liberty Financial USD",
           "symbol": "USD1"
+        }
+      }
+    },
+    "USD3": {
+      "ethereum": {
+        "0x056b269eb1f75477a8666ae8c7fe01b64dd55ecc": {
+          "decimals": 6,
+          "name": "USD3",
+          "symbol": "USD3"
         }
       }
     },
@@ -4687,6 +4705,15 @@
           "decimals": 18,
           "name": "Savings USD0",
           "symbol": "sUSD0"
+        }
+      }
+    },
+    "sUSD3": {
+      "ethereum": {
+        "0xf689555121e529ff0463e191f9bd9d1e496164a7": {
+          "decimals": 6,
+          "name": "sUSD3",
+          "symbol": "sUSD3"
         }
       }
     },

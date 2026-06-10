@@ -429,6 +429,10 @@
         "name": "Lido Swellchain Bridge",
         "protocol": "Lido"
       },
+      "0xf689555121e529ff0463e191f9bd9d1e496164a7": {
+        "name": "sUSD3",
+        "protocol": "3Jane"
+      },
       "0xfdd22ce6d1f66bc0ec89b20bf16ccb6670f55a5a": {
         "name": "thBILL OFT Adapter",
         "protocol": "Theo"

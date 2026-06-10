@@ -536,6 +536,14 @@
         }
       ]
     },
+    "USD3": {
+      "ethereum": [
+        {
+          "address": "0xf689555121e529ff0463e191f9bd9d1e496164a7",
+          "type": "locked"
+        }
+      ]
+    },
     "USDC": {
       "arbitrum": [
         {
