@@ -364,3 +364,109 @@ def test_build_tokens_adds_uniswap_v3_pools_as_deductions_only():
     assert result["tokens"]["USDC"]["deductions"]["ethereum"] == [pool_deduction]
     assert result["tokens"]["WETH"]["deductions"]["ethereum"] == [pool_deduction]
     assert "USDC-WETH-500" not in result["tokens"]
+
+
+def test_build_tokens_ignores_pendle_protocol_until_integrated():
+    contracts = {
+        "contracts": {
+            "USDai": {
+                "arbitrum": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
+            }
+        }
+    }
+    metadata = {"metadata": {}}
+    taxonomies = {"taxonomies": {}}
+    deductions = {"deductions": {}}
+    labels = {"labels": {}}
+    protocols = [
+        {
+            "pendle": [
+                {
+                    "token": "USDai",
+                    "chain": "arbitrum",
+                    "address": "0x5edcbc20cac67adc2e724d4348ff85132b085b82",
+                    "underlying_address": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef",
+                    "decimals": 18,
+                    "symbol": "SY-USDai",
+                    "name": "Pendle SY-USDai",
+                    "onchain_symbol": "SY-USDai",
+                    "onchain_name": "SY USDai",
+                    "protocol": "Pendle",
+                    "version": "V2",
+                    "type": "locked",
+                    "expiries": [1763596800],
+                }
+            ]
+        }
+    ]
+
+    result = build_tokens(
+        contracts,
+        metadata,
+        taxonomies,
+        deductions,
+        labels,
+        protocols,
+    )
+
+    assert "deductions" not in result["tokens"]["USDai"]
+
+
+def test_build_tokens_adds_fluid_liquidity_contract_as_deduction_only():
+    contracts = {
+        "contracts": {
+            "USDC": {
+                "base": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            }
+        }
+    }
+    metadata = {"metadata": {}}
+    taxonomies = {"taxonomies": {}}
+    deductions = {"deductions": {}}
+    labels = {"labels": {}}
+    protocols = [
+        {
+            "fluid_v1": [
+                {
+                    "token": "USDC",
+                    "chain": "base",
+                    "address": "0x52aa899454998be5b000ad077a46bbe360f4e497",
+                    "underlying_address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+                    "ftoken_address": "0x1111111111111111111111111111111111111111",
+                    "factory": "0x54b91a0d94cb471f37f949c60f7fa7935b551d03",
+                    "liquidity_contract": "0x52aa899454998be5b000ad077a46bbe360f4e497",
+                    "decimals": 6,
+                    "symbol": "fUSDC",
+                    "name": "Fluid Liquidity Contract USDC",
+                    "onchain_symbol": "fUSDC",
+                    "onchain_name": "Fluid USDC",
+                    "protocol": "Fluid",
+                    "version": "fToken",
+                    "type": "locked",
+                }
+            ]
+        }
+    ]
+
+    result = build_tokens(
+        contracts,
+        metadata,
+        taxonomies,
+        deductions,
+        labels,
+        protocols,
+    )
+
+    assert result["tokens"]["USDC"]["deductions"]["base"] == [
+        {
+            "address": "0x52aa899454998be5b000ad077a46bbe360f4e497",
+            "labels": {
+                "name": "Fluid Liquidity Contract USDC",
+                "protocol": "Fluid",
+                "symbol": "fUSDC",
+                "version": "fToken",
+            },
+            "type": "locked",
+        }
+    ]
+    assert "fUSDC" not in result["tokens"]

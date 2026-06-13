@@ -24,6 +24,7 @@ registries/
 
   protocols/               Script-refreshed protocol discovery outputs
     aave_v3.json
+    fluid_v1.json
     uniswap_v2.json
     uniswap_v3.json
 
@@ -78,7 +79,7 @@ metadata in `registries/sources/taxonomies.json`.
 | `registries/sources/deductions.json` | Manual free-float deduction holders. |
 | `registries/sources/labels.json` | Shared labels for manual deduction holders. |
 | `registries/artifacts/metadata.json` | ERC-20 symbol, name, and decimals cache created by `src/fetch_metadata.py`. |
-| `registries/protocols/*.json` | Aave and Uniswap protocol discovery outputs created by `src/protocols/*.py`. |
+| `registries/protocols/*.json` | Protocol discovery outputs created by `src/protocols/*.py`. |
 | `registries/tokens.json` | Final published registry created by `src/build_tokens.py`. |
 
 ## Common Commands
@@ -95,6 +96,7 @@ Refresh protocol artifacts:
 
 ```bash
 uv run python src/protocols/aave_v3.py
+uv run python src/protocols/fluid_v1.py
 uv run python src/protocols/uniswap_v2.py
 uv run python src/protocols/uniswap_v3.py
 ```
@@ -137,6 +139,7 @@ Deductions:
 Protocol artifacts:
 
 - Aave V3 aTokens are generated root tokens and deductions.
+- Fluid fTokens generate liquidity-contract deductions against their underlyings.
 - Uniswap V2 pairs and Uniswap V3 pools are deduction-only.
 
 ## Out Of Scope

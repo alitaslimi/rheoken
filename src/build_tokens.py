@@ -22,6 +22,7 @@ TOKEN_ENTRY_KEY_ORDER = {
     "deployments": 1,
     "deductions": 2,
 }
+TOKEN_REGISTRY_PROTOCOLS = {"aave_v3", "fluid_v1", "uniswap_v2", "uniswap_v3"}
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -145,6 +146,8 @@ def build_generated_deductions(
     output: dict[str, dict[str, list[dict[str, Any]]]] = {}
     for registry in protocol_registries:
         for protocol, records in registry.items():
+            if protocol not in TOKEN_REGISTRY_PROTOCOLS:
+                continue
             for record in records:
                 chain = record["chain"]
                 entry = {
@@ -194,6 +197,13 @@ def generated_deduction_labels(
             "protocol": protocol_name,
             "version": version,
         }
+    if protocol == "fluid_v1":
+        return {
+            "name": record["name"],
+            "protocol": record["protocol"],
+            "symbol": record["symbol"],
+            "version": record["version"],
+        }
     return {
         key: record[key]
         for key in ("name", "protocol", "symbol")
@@ -204,6 +214,7 @@ def generated_deduction_labels(
 def protocol_version(protocol: str) -> str:
     return {
         "aave_v3": "V3",
+        "fluid_v1": "fToken",
         "uniswap_v2": "V2",
         "uniswap_v3": "V3",
     }[protocol]

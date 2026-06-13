@@ -127,12 +127,14 @@ under `registries/protocols/`.
 
 ```bash
 uv run python src/protocols/aave_v3.py
+uv run python src/protocols/fluid_v1.py
 uv run python src/protocols/uniswap_v2.py
 uv run python src/protocols/uniswap_v3.py
 uv run python src/build_tokens.py
 ```
 
 Aave V3 aTokens are included as generated root tokens and as deductions against
+their underlyings. Fluid fTokens generate liquidity-contract deductions against
 their underlyings. Uniswap V2 pairs and Uniswap V3 pools are deduction-only.
 
 ## Using The Registry

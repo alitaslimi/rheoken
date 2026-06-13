@@ -372,6 +372,20 @@ def _validate_protocol_record(
     required = {"address", "chain", "name", "protocol", "symbol", "type"}
     if protocol == "aave_v3":
         required |= {"decimals", "market", "onchain_name", "onchain_symbol", "token", "underlying_address", "version"}
+    elif protocol == "fluid_v1":
+        required |= {
+            "decimals",
+            "factory",
+            "ftoken_address",
+            "liquidity_contract",
+            "onchain_name",
+            "onchain_symbol",
+            "token",
+            "underlying_address",
+            "version",
+        }
+    elif protocol == "pendle":
+        required |= {"decimals", "expiries", "onchain_name", "onchain_symbol", "token", "underlying_address", "version"}
     elif protocol == "uniswap_v2":
         required |= {"decimals", "onchain_name", "onchain_symbol", "pool", "tokens", "underlying_addresses", "version"}
     elif protocol == "uniswap_v3":
@@ -391,7 +405,7 @@ def _validate_protocol_record(
     if record.get("type") not in ALLOWED_DEDUCTION_TYPES:
         errors.append(f"{path}/type: invalid type")
 
-    if protocol == "aave_v3":
+    if protocol in {"aave_v3", "fluid_v1", "pendle"}:
         token = record.get("token")
         if token not in known_tokens:
             errors.append(f"{path}: unknown token '{token}'")
@@ -400,6 +414,19 @@ def _validate_protocol_record(
         underlying_address = record.get("underlying_address")
         if isinstance(underlying_address, str):
             _validate_address_format(f"{path}/underlying_address", underlying_address, errors)
+        if protocol == "fluid_v1":
+            for key in ("factory", "ftoken_address", "liquidity_contract"):
+                value = record.get(key)
+                if isinstance(value, str):
+                    _validate_address_format(f"{path}/{key}", value, errors)
+                else:
+                    errors.append(f"{path}/{key}: must be a string")
+            if record.get("address") != record.get("liquidity_contract"):
+                errors.append(f"{path}/address: must match liquidity_contract")
+        if protocol == "pendle":
+            expiries = record.get("expiries")
+            if not isinstance(expiries, list) or not all(isinstance(item, int) for item in expiries):
+                errors.append(f"{path}/expiries: must be a list of integers")
     elif protocol in {"uniswap_v2", "uniswap_v3"}:
         tokens = record.get("tokens")
         if not isinstance(tokens, list) or len(tokens) != 2:
