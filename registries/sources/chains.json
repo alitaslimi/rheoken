@@ -17,6 +17,9 @@
     },
     "arbitrum": {
       "chain_id": 42161,
+      "envio": {
+        "hypersync_url": "https://arbitrum.hypersync.xyz"
+      },
       "name": "Arbitrum",
       "native_asset": "ETH",
       "public_rpcs": [
@@ -35,6 +38,9 @@
     },
     "avalanche": {
       "chain_id": 43114,
+      "envio": {
+        "hypersync_url": "https://avalanche.hypersync.xyz"
+      },
       "name": "Avalanche",
       "native_asset": "AVAX",
       "public_rpcs": [
@@ -44,6 +50,9 @@
     },
     "base": {
       "chain_id": 8453,
+      "envio": {
+        "hypersync_url": "https://base.hypersync.xyz"
+      },
       "name": "Base",
       "native_asset": "ETH",
       "public_rpcs": [
@@ -82,6 +91,9 @@
     },
     "bsc": {
       "chain_id": 56,
+      "envio": {
+        "hypersync_url": "https://bsc.hypersync.xyz"
+      },
       "name": "BSC",
       "native_asset": "BNB",
       "public_rpcs": [
@@ -112,6 +124,9 @@
     },
     "ethereum": {
       "chain_id": 1,
+      "envio": {
+        "hypersync_url": "https://eth.hypersync.xyz"
+      },
       "name": "Ethereum",
       "native_asset": "ETH",
       "public_rpcs": [
@@ -172,6 +187,9 @@
     },
     "ink": {
       "chain_id": 57073,
+      "envio": {
+        "hypersync_url": "https://ink.hypersync.xyz"
+      },
       "name": "Ink",
       "native_asset": "ETH",
       "public_rpcs": [
@@ -204,6 +222,9 @@
     },
     "linea": {
       "chain_id": 59144,
+      "envio": {
+        "hypersync_url": "https://linea.hypersync.xyz"
+      },
       "name": "Linea",
       "native_asset": "ETH",
       "public_rpcs": [
@@ -226,6 +247,9 @@
     },
     "mantle": {
       "chain_id": 5000,
+      "envio": {
+        "hypersync_url": "https://mantle.hypersync.xyz"
+      },
       "name": "Mantle",
       "native_asset": "MNT",
       "public_rpcs": [
@@ -245,6 +269,9 @@
     },
     "megaeth": {
       "chain_id": 4326,
+      "envio": {
+        "hypersync_url": "https://megaeth.hypersync.xyz"
+      },
       "name": "MegaETH",
       "native_asset": "ETH",
       "public_rpcs": []
@@ -273,6 +300,9 @@
     },
     "monad": {
       "chain_id": 143,
+      "envio": {
+        "hypersync_url": "https://monad.hypersync.xyz"
+      },
       "name": "Monad",
       "native_asset": "MON",
       "public_rpcs": []
@@ -295,6 +325,9 @@
     },
     "optimism": {
       "chain_id": 10,
+      "envio": {
+        "hypersync_url": "https://optimism.hypersync.xyz"
+      },
       "name": "Optimism",
       "native_asset": "ETH",
       "public_rpcs": [
@@ -306,6 +339,9 @@
     },
     "plasma": {
       "chain_id": 9745,
+      "envio": {
+        "hypersync_url": "https://plasma.hypersync.xyz"
+      },
       "name": "Plasma",
       "native_asset": "XPL",
       "public_rpcs": [
@@ -324,6 +360,9 @@
     },
     "polygon": {
       "chain_id": 137,
+      "envio": {
+        "hypersync_url": "https://polygon.hypersync.xyz"
+      },
       "name": "Polygon",
       "native_asset": "POL",
       "public_rpcs": [
