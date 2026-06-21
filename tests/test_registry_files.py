@@ -70,6 +70,27 @@ def test_all_contract_chains_are_known():
     assert referenced <= chains
 
 
+def test_all_contract_deployments_have_labels():
+    contracts = load_registry_file("contracts.json")["contracts"]
+    labels = load_registry_file("labels.json")["labels"]
+
+    missing = []
+    incomplete = []
+    for token, token_contracts in contracts.items():
+        for chain, addresses in token_contracts.items():
+            if isinstance(addresses, str):
+                addresses = [addresses]
+            for address in addresses:
+                label = labels.get(chain, {}).get(address)
+                if not label:
+                    missing.append((token, chain, address))
+                elif not all(label.get(key) for key in ("name", "protocol", "deduction")) or label.get("type") != "token":
+                    incomplete.append((token, chain, address))
+
+    assert not missing
+    assert not incomplete
+
+
 def test_all_contract_tokens_have_taxonomies():
     contracts = load_registry_file("contracts.json")["contracts"]
     taxonomies = load_registry_file("taxonomies.json")["taxonomies"]
@@ -85,3 +106,22 @@ def test_deductions_reference_known_tokens_and_chains():
     assert set(deductions) <= set(contracts) | load_generated_aave_tokens()
     for token, token_deductions in deductions.items():
         assert set(token_deductions) <= chains, token
+
+
+def test_deduction_labels_have_matching_deduction_type():
+    deductions = load_registry_file("deductions.json")["deductions"]
+    labels = load_registry_file("labels.json")["labels"]
+
+    missing = []
+    mismatched = []
+    for token, token_deductions in deductions.items():
+        for chain, entries in token_deductions.items():
+            for entry in entries:
+                label = labels.get(chain, {}).get(entry["address"])
+                if not label:
+                    missing.append((token, chain, entry["address"]))
+                elif label.get("deduction") != entry["type"]:
+                    mismatched.append((token, chain, entry["address"]))
+
+    assert not missing
+    assert not mismatched
