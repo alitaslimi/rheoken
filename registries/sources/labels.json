@@ -4541,6 +4541,29 @@
         "deduction": "locked"
       }
     },
+    "robinhood": {
+      "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34": {
+        "name": "USDe",
+        "symbol": "USDe",
+        "protocol": "Ethena",
+        "type": "token",
+        "deduction": "locked"
+      },
+      "0x5fc5360d0400a0fd4f2af552add042d716f1d168": {
+        "name": "Global Dollar",
+        "symbol": "USDG",
+        "protocol": "Paxos",
+        "type": "token",
+        "deduction": "locked"
+      },
+      "0x0bd7d308f8e1639fab988df18a8011f41eacad73": {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "protocol": "Ethereum",
+        "type": "token",
+        "deduction": "locked"
+      }
+    },
     "sei": {
       "0x3349e443068f76666789c4f76f00d9c4f38a4dde": {
         "name": "M0 Spoke Vault",

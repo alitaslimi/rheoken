@@ -1051,6 +1051,7 @@
       "mantle": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
       "optimism": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
       "plasma": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+      "robinhood": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
       "scroll": "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
       "solana": "DEkqHyPN7GMRJ5cArtQFAWefqbZb33Hyf6s5iCwjEonT",
       "ton": "EQAIb6KmdfdDR7CN1GBqVJuP25iCnLKCvBlJ07Evuu2dzP5f",
@@ -1066,6 +1067,7 @@
     "USDG": {
       "ethereum": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
       "ink": "0xe343167631d89b6ffc58b88d6b7fb0228795491d",
+      "robinhood": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
       "solana": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
       "xlayer": "0x4ae46a509f6b1d9056937ba4500cb143933d2dc8"
     },
@@ -1217,7 +1219,8 @@
       "mantle": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead1111",
       "optimism": "0x4200000000000000000000000000000000000006",
       "plasma": "0x9895d81bb462a195b4922ed7de0e3acd007c32cb",
-      "polygon": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"
+      "polygon": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+      "robinhood": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
     },
     "WFRAX": {
       "ethereum": "0x04acaf8d2865c0714f79da09645c13fd2888977f"

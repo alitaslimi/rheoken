@@ -380,6 +380,11 @@
         "https://zkevm-rpc.com"
       ]
     },
+    "robinhood": {
+      "name": "Robinhood",
+      "native_asset": "ETH",
+      "public_rpcs": []
+    },
     "rootstock": {
       "chain_id": 30,
       "name": "Rootstock",
