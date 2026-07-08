@@ -23,6 +23,7 @@ ALCHEMY_RPC_BASES = {
     "optimism": "https://opt-mainnet.g.alchemy.com/v2/",
     "plasma": "https://plasma-mainnet.g.alchemy.com/v2/",
     "polygon": "https://polygon-mainnet.g.alchemy.com/v2/",
+    "robinhood": "https://robinhood-mainnet.g.alchemy.com/v2/",
     "rootstock": "https://rootstock-mainnet.g.alchemy.com/v2/",
     "scroll": "https://scroll-mainnet.g.alchemy.com/v2/",
     "sei": "https://sei-mainnet.g.alchemy.com/v2/",

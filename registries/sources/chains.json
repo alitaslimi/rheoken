@@ -381,6 +381,7 @@
       ]
     },
     "robinhood": {
+      "chain_id": 4663,
       "name": "Robinhood",
       "native_asset": "ETH",
       "public_rpcs": []
